@@ -83,6 +83,7 @@ def mostrar_exercicio(page: ft.Page):
         # ft.Image(src=exercicio["imagem_pergunta"], width=200, height=150),
         ft.Container(height=20),
         ft.ResponsiveRow(cards, alignment=ft.MainAxisAlignment.CENTER),
+        ft.Button("Voltar ao início", icon=ft.Icons.HOME, on_click=lambda e: tela_inicio(page)),
     ])
 
 
