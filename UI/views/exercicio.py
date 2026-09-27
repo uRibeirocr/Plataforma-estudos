@@ -1,40 +1,18 @@
-# ui.py
 import flet as ft
 import estado
 import services
-
-def limpar_e_mostrar(page: ft.Page, controles):
-    page.controls.clear()
-    page.controls.extend(controles)
-    page.update()
-
-def tela_inicio(page: ft.Page):
-    limpar_e_mostrar(page, [
-        ft.Text("Bem-vindo(a)! 👋", size=32, weight=ft.FontWeight.BOLD),
-        ft.Text("Escolha uma matéria para começar:", size=18),
-        ft.Row(
-            [
-                ft.Button("Matemática", icon=ft.Icons.CALCULATE, on_click=lambda e: iniciar_materia(page, "MATEMATICA")),
-                ft.Button("Geografia", icon=ft.Icons.PUBLIC, on_click=lambda e: iniciar_materia(page, "GEOGRAFIA")),
-            ],
-            alignment=ft.MainAxisAlignment.CENTER,
-            spacing=20,
-        ),
-    ])
-
-def iniciar_materia(page: ft.Page, materia: str):
-    estado.estado_atual["materia"] = materia
-    estado.estado_atual["indice"] = 0
-    estado.pontuacao["total"] = 0
-    mostrar_exercicio(page)
+from components.utils import limpar_e_mostrar
 
 def mostrar_exercicio(page: ft.Page):
+    from views.resultado import tela_resultado # Importação local para evitar import circular
+    from views.inicio import tela_inicio       # Importação local
+
     materia = estado.estado_atual["materia"]
     indice = estado.estado_atual["indice"]
     
-    # Busca os dados usando o Service, e não o mock direto
     lista_exercicios = services.buscar_exercicios(materia)
 
+    # Verifica se os exercícios acabaram
     if indice >= len(lista_exercicios):
         tela_resultado(page)
         return
@@ -42,14 +20,35 @@ def mostrar_exercicio(page: ft.Page):
     exercicio = lista_exercicios[indice]
     cards = [criar_card_alternativa(page, alt) for alt in exercicio["alternativas"]]
 
-    limpar_e_mostrar(page, [
-        ft.Row([ft.Text(f"⭐ Pontos: {estado.pontuacao['total']}", size=16, weight=ft.FontWeight.BOLD)], alignment=ft.MainAxisAlignment.END),
+    # Monta a parte superior (Pontuação e Pergunta)
+    componentes_tela = [
+        ft.Row([ft.Text(f"⭐ Pontos: {estado.pontuacao['total']}", size=18, weight=ft.FontWeight.BOLD, color=ft.Colors.AMBER_600)], alignment=ft.MainAxisAlignment.END),
         ft.Container(height=10),
-        ft.Text(exercicio["pergunta"], size=26, weight=ft.FontWeight.BOLD, text_align=ft.TextAlign.CENTER),
+        ft.Text(exercicio["pergunta"], size=26, weight=ft.FontWeight.BOLD, text_align=ft.TextAlign.CENTER, color=ft.Colors.BLUE_900),
+        ft.Container(height=15),
+    ]
+
+    # Adiciona a imagem de forma dinâmica, caso exista na base de dados
+    if exercicio.get("imagem_pergunta"):
+        componentes_tela.append(
+            ft.Image(
+                src=exercicio["imagem_pergunta"], 
+                width=350,
+                height=250,
+                fit="contain",
+            )
+        )
+
+    # Monta a grelha de alternativas e o botão de voltar
+    componentes_tela.extend([
         ft.Container(height=20),
         ft.ResponsiveRow(cards, alignment=ft.MainAxisAlignment.CENTER),
+        ft.Container(height=30),
         ft.Button("Voltar ao início", icon=ft.Icons.HOME, on_click=lambda e: tela_inicio(page)),
     ])
+
+    limpar_e_mostrar(page, componentes_tela)
+
 
 def criar_card_alternativa(page: ft.Page, alternativa: dict):
     def ao_clicar(e):
@@ -67,13 +66,14 @@ def criar_card_alternativa(page: ft.Page, alternativa: dict):
         ink=True, on_click=ao_clicar,
     )
 
+
 def verificar_resposta(page: ft.Page, alternativa: dict):
     if alternativa["correta"]:
         estado.pontuacao["total"] += 10
         mensagem = "Acertou! 🎉"
         cor = ft.Colors.GREEN
     else:
-        mensagem = "Não foi essa, tenta a próxima! 💪"
+        mensagem = "Não foi desta, tenta a próxima! 💪"
         cor = ft.Colors.RED
 
     def continuar(e):
@@ -84,12 +84,4 @@ def verificar_resposta(page: ft.Page, alternativa: dict):
         ft.Text(mensagem, size=28, color=cor, weight=ft.FontWeight.BOLD, text_align=ft.TextAlign.CENTER),
         ft.Container(height=20),
         ft.Button("Continuar", icon=ft.Icons.ARROW_FORWARD, on_click=continuar),
-    ])
-
-def tela_resultado(page: ft.Page):
-    limpar_e_mostrar(page, [
-        ft.Text("Você terminou! 🏆", size=32, weight=ft.FontWeight.BOLD),
-        ft.Text(f"Pontuação final: {estado.pontuacao['total']} pontos", size=22),
-        ft.Container(height=20),
-        ft.Button("Voltar ao início", icon=ft.Icons.HOME, on_click=lambda e: tela_inicio(page)),
     ])
