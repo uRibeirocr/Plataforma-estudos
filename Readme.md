@@ -14,9 +14,9 @@ Projeto de extensão: uma plataforma de estudo prático e ilustrativo para crian
 
 | Área | Responsável |
 |---|---|
-| Backend (Spring Boot) | Jojo |
-| Banco de dados | Duv |
-| Frontend (Flet) | Neto e Flávio |
+| Backend (Spring Boot) | Jonatas |
+| Banco de dados | Duvenson |
+| Frontend (Flet) | P.Neto e Flávio |
 | Testes | Giovana |
 | Conteúdo educacional | Vitor |
 
