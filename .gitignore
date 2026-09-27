@@ -1,0 +1,28 @@
+# ===== Python (frontend) =====
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambiente virtual
+venv/
+env/
+.venv/
+
+# Build do Flet (quando for gerar o app empacotado)
+build/
+dist/
+
+# ===== Java / Spring Boot (backend) =====
+target/
+*.class
+*.jar
+*.war
+
+# ===== Editores / IDEs =====
+.vscode/
+.idea/
+*.iml
+
+# ===== Sistema operacional =====
+.DS_Store
+Thumbs.db
