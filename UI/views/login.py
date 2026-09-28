@@ -1,7 +1,8 @@
 # login.py
 import flet as ft
 import estado
-from UI import tela_inicio, limpar_e_mostrar
+from views.inicio import tela_inicio
+from components.utils import limpar_e_mostrar
 
 
 def tela_login(page: ft.Page):
