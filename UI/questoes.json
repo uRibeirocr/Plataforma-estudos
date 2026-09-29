@@ -1,0 +1,3746 @@
+[
+  {
+    "id": 5,
+    "codigo": "M05",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 4 × 2?",
+    "imagem_pergunta": "matematica/M05_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "4 grupos de 2 formam 8.",
+    "alternativas": [
+      {
+        "id": 17,
+        "letra": "A",
+        "texto": "8",
+        "imagem": "matematica/M05_A.png",
+        "correta": true
+      },
+      {
+        "id": 18,
+        "letra": "B",
+        "texto": "6",
+        "imagem": "matematica/M05_B.png",
+        "correta": false
+      },
+      {
+        "id": 19,
+        "letra": "C",
+        "texto": "10",
+        "imagem": "matematica/M05_C.png",
+        "correta": false
+      },
+      {
+        "id": 20,
+        "letra": "D",
+        "texto": "4",
+        "imagem": "matematica/M05_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "codigo": "M06",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 3 × 5?",
+    "imagem_pergunta": "matematica/M06_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "3 grupos de 5 formam 15.",
+    "alternativas": [
+      {
+        "id": 21,
+        "letra": "A",
+        "texto": "13",
+        "imagem": "matematica/M06_A.png",
+        "correta": false
+      },
+      {
+        "id": 22,
+        "letra": "B",
+        "texto": "15",
+        "imagem": "matematica/M06_B.png",
+        "correta": true
+      },
+      {
+        "id": 23,
+        "letra": "C",
+        "texto": "17",
+        "imagem": "matematica/M06_C.png",
+        "correta": false
+      },
+      {
+        "id": 24,
+        "letra": "D",
+        "texto": "11",
+        "imagem": "matematica/M06_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "codigo": "M07",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 6 × 4?",
+    "imagem_pergunta": "matematica/M07_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "6 grupos de 4 formam 24.",
+    "alternativas": [
+      {
+        "id": 25,
+        "letra": "A",
+        "texto": "22",
+        "imagem": "matematica/M07_A.png",
+        "correta": false
+      },
+      {
+        "id": 26,
+        "letra": "B",
+        "texto": "26",
+        "imagem": "matematica/M07_B.png",
+        "correta": false
+      },
+      {
+        "id": 27,
+        "letra": "C",
+        "texto": "24",
+        "imagem": "matematica/M07_C.png",
+        "correta": true
+      },
+      {
+        "id": 28,
+        "letra": "D",
+        "texto": "20",
+        "imagem": "matematica/M07_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "codigo": "M08",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 9 × 2?",
+    "imagem_pergunta": "matematica/M08_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "9 grupos de 2 formam 18.",
+    "alternativas": [
+      {
+        "id": 29,
+        "letra": "A",
+        "texto": "16",
+        "imagem": "matematica/M08_A.png",
+        "correta": false
+      },
+      {
+        "id": 30,
+        "letra": "B",
+        "texto": "20",
+        "imagem": "matematica/M08_B.png",
+        "correta": false
+      },
+      {
+        "id": 31,
+        "letra": "C",
+        "texto": "14",
+        "imagem": "matematica/M08_C.png",
+        "correta": false
+      },
+      {
+        "id": 32,
+        "letra": "D",
+        "texto": "18",
+        "imagem": "matematica/M08_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "codigo": "M09",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 7 × 3?",
+    "imagem_pergunta": "matematica/M09_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "7 grupos de 3 formam 21.",
+    "alternativas": [
+      {
+        "id": 33,
+        "letra": "A",
+        "texto": "21",
+        "imagem": "matematica/M09_A.png",
+        "correta": true
+      },
+      {
+        "id": 34,
+        "letra": "B",
+        "texto": "19",
+        "imagem": "matematica/M09_B.png",
+        "correta": false
+      },
+      {
+        "id": 35,
+        "letra": "C",
+        "texto": "23",
+        "imagem": "matematica/M09_C.png",
+        "correta": false
+      },
+      {
+        "id": 36,
+        "letra": "D",
+        "texto": "17",
+        "imagem": "matematica/M09_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "codigo": "M10",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 4 × 9?",
+    "imagem_pergunta": "matematica/M10_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "4 grupos de 9 formam 36.",
+    "alternativas": [
+      {
+        "id": 37,
+        "letra": "A",
+        "texto": "34",
+        "imagem": "matematica/M10_A.png",
+        "correta": false
+      },
+      {
+        "id": 38,
+        "letra": "B",
+        "texto": "36",
+        "imagem": "matematica/M10_B.png",
+        "correta": true
+      },
+      {
+        "id": 39,
+        "letra": "C",
+        "texto": "38",
+        "imagem": "matematica/M10_C.png",
+        "correta": false
+      },
+      {
+        "id": 40,
+        "letra": "D",
+        "texto": "32",
+        "imagem": "matematica/M10_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "codigo": "M11",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 6 × 7?",
+    "imagem_pergunta": "matematica/M11_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "6 grupos de 7 formam 42.",
+    "alternativas": [
+      {
+        "id": 41,
+        "letra": "A",
+        "texto": "40",
+        "imagem": "matematica/M11_A.png",
+        "correta": false
+      },
+      {
+        "id": 42,
+        "letra": "B",
+        "texto": "44",
+        "imagem": "matematica/M11_B.png",
+        "correta": false
+      },
+      {
+        "id": 43,
+        "letra": "C",
+        "texto": "42",
+        "imagem": "matematica/M11_C.png",
+        "correta": true
+      },
+      {
+        "id": 44,
+        "letra": "D",
+        "texto": "38",
+        "imagem": "matematica/M11_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "codigo": "M12",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 8 × 8?",
+    "imagem_pergunta": "matematica/M12_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "8 grupos de 8 formam 64.",
+    "alternativas": [
+      {
+        "id": 45,
+        "letra": "A",
+        "texto": "62",
+        "imagem": "matematica/M12_A.png",
+        "correta": false
+      },
+      {
+        "id": 46,
+        "letra": "B",
+        "texto": "66",
+        "imagem": "matematica/M12_B.png",
+        "correta": false
+      },
+      {
+        "id": 47,
+        "letra": "C",
+        "texto": "60",
+        "imagem": "matematica/M12_C.png",
+        "correta": false
+      },
+      {
+        "id": 48,
+        "letra": "D",
+        "texto": "64",
+        "imagem": "matematica/M12_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "codigo": "M13",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 10 × 5?",
+    "imagem_pergunta": "matematica/M13_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "10 grupos de 5 formam 50.",
+    "alternativas": [
+      {
+        "id": 49,
+        "letra": "A",
+        "texto": "50",
+        "imagem": "matematica/M13_A.png",
+        "correta": true
+      },
+      {
+        "id": 50,
+        "letra": "B",
+        "texto": "48",
+        "imagem": "matematica/M13_B.png",
+        "correta": false
+      },
+      {
+        "id": 51,
+        "letra": "C",
+        "texto": "52",
+        "imagem": "matematica/M13_C.png",
+        "correta": false
+      },
+      {
+        "id": 52,
+        "letra": "D",
+        "texto": "46",
+        "imagem": "matematica/M13_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "codigo": "M14",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 2 × 7?",
+    "imagem_pergunta": "matematica/M14_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "2 grupos de 7 formam 14.",
+    "alternativas": [
+      {
+        "id": 53,
+        "letra": "A",
+        "texto": "12",
+        "imagem": "matematica/M14_A.png",
+        "correta": false
+      },
+      {
+        "id": 54,
+        "letra": "B",
+        "texto": "14",
+        "imagem": "matematica/M14_B.png",
+        "correta": true
+      },
+      {
+        "id": 55,
+        "letra": "C",
+        "texto": "16",
+        "imagem": "matematica/M14_C.png",
+        "correta": false
+      },
+      {
+        "id": 56,
+        "letra": "D",
+        "texto": "10",
+        "imagem": "matematica/M14_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "codigo": "M15",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 5 × 9?",
+    "imagem_pergunta": "matematica/M15_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "5 grupos de 9 formam 45.",
+    "alternativas": [
+      {
+        "id": 57,
+        "letra": "A",
+        "texto": "43",
+        "imagem": "matematica/M15_A.png",
+        "correta": false
+      },
+      {
+        "id": 58,
+        "letra": "B",
+        "texto": "47",
+        "imagem": "matematica/M15_B.png",
+        "correta": false
+      },
+      {
+        "id": 59,
+        "letra": "C",
+        "texto": "45",
+        "imagem": "matematica/M15_C.png",
+        "correta": true
+      },
+      {
+        "id": 60,
+        "letra": "D",
+        "texto": "41",
+        "imagem": "matematica/M15_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "codigo": "M16",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 8 × 3?",
+    "imagem_pergunta": "matematica/M16_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "8 grupos de 3 formam 24.",
+    "alternativas": [
+      {
+        "id": 61,
+        "letra": "A",
+        "texto": "22",
+        "imagem": "matematica/M16_A.png",
+        "correta": false
+      },
+      {
+        "id": 62,
+        "letra": "B",
+        "texto": "26",
+        "imagem": "matematica/M16_B.png",
+        "correta": false
+      },
+      {
+        "id": 63,
+        "letra": "C",
+        "texto": "20",
+        "imagem": "matematica/M16_C.png",
+        "correta": false
+      },
+      {
+        "id": 64,
+        "letra": "D",
+        "texto": "24",
+        "imagem": "matematica/M16_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "codigo": "M17",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 9 × 9?",
+    "imagem_pergunta": "matematica/M17_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "9 grupos de 9 formam 81.",
+    "alternativas": [
+      {
+        "id": 65,
+        "letra": "A",
+        "texto": "81",
+        "imagem": "matematica/M17_A.png",
+        "correta": true
+      },
+      {
+        "id": 66,
+        "letra": "B",
+        "texto": "79",
+        "imagem": "matematica/M17_B.png",
+        "correta": false
+      },
+      {
+        "id": 67,
+        "letra": "C",
+        "texto": "83",
+        "imagem": "matematica/M17_C.png",
+        "correta": false
+      },
+      {
+        "id": 68,
+        "letra": "D",
+        "texto": "77",
+        "imagem": "matematica/M17_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "codigo": "M18",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 4 × 5?",
+    "imagem_pergunta": "matematica/M18_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "4 grupos de 5 formam 20.",
+    "alternativas": [
+      {
+        "id": 69,
+        "letra": "A",
+        "texto": "18",
+        "imagem": "matematica/M18_A.png",
+        "correta": false
+      },
+      {
+        "id": 70,
+        "letra": "B",
+        "texto": "20",
+        "imagem": "matematica/M18_B.png",
+        "correta": true
+      },
+      {
+        "id": 71,
+        "letra": "C",
+        "texto": "22",
+        "imagem": "matematica/M18_C.png",
+        "correta": false
+      },
+      {
+        "id": 72,
+        "letra": "D",
+        "texto": "16",
+        "imagem": "matematica/M18_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "codigo": "M19",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 6 × 6?",
+    "imagem_pergunta": "matematica/M19_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "6 grupos de 6 formam 36.",
+    "alternativas": [
+      {
+        "id": 73,
+        "letra": "A",
+        "texto": "34",
+        "imagem": "matematica/M19_A.png",
+        "correta": false
+      },
+      {
+        "id": 74,
+        "letra": "B",
+        "texto": "38",
+        "imagem": "matematica/M19_B.png",
+        "correta": false
+      },
+      {
+        "id": 75,
+        "letra": "C",
+        "texto": "36",
+        "imagem": "matematica/M19_C.png",
+        "correta": true
+      },
+      {
+        "id": 76,
+        "letra": "D",
+        "texto": "32",
+        "imagem": "matematica/M19_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "codigo": "M20",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 10 × 8?",
+    "imagem_pergunta": "matematica/M20_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "10 grupos de 8 formam 80.",
+    "alternativas": [
+      {
+        "id": 77,
+        "letra": "A",
+        "texto": "78",
+        "imagem": "matematica/M20_A.png",
+        "correta": false
+      },
+      {
+        "id": 78,
+        "letra": "B",
+        "texto": "82",
+        "imagem": "matematica/M20_B.png",
+        "correta": false
+      },
+      {
+        "id": 79,
+        "letra": "C",
+        "texto": "76",
+        "imagem": "matematica/M20_C.png",
+        "correta": false
+      },
+      {
+        "id": 80,
+        "letra": "D",
+        "texto": "80",
+        "imagem": "matematica/M20_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "codigo": "M21",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 3 × 7?",
+    "imagem_pergunta": "matematica/M21_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "3 grupos de 7 formam 21.",
+    "alternativas": [
+      {
+        "id": 81,
+        "letra": "A",
+        "texto": "21",
+        "imagem": "matematica/M21_A.png",
+        "correta": true
+      },
+      {
+        "id": 82,
+        "letra": "B",
+        "texto": "19",
+        "imagem": "matematica/M21_B.png",
+        "correta": false
+      },
+      {
+        "id": 83,
+        "letra": "C",
+        "texto": "23",
+        "imagem": "matematica/M21_C.png",
+        "correta": false
+      },
+      {
+        "id": 84,
+        "letra": "D",
+        "texto": "17",
+        "imagem": "matematica/M21_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "codigo": "M22",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 2 × 9?",
+    "imagem_pergunta": "matematica/M22_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "2 grupos de 9 formam 18.",
+    "alternativas": [
+      {
+        "id": 85,
+        "letra": "A",
+        "texto": "16",
+        "imagem": "matematica/M22_A.png",
+        "correta": false
+      },
+      {
+        "id": 86,
+        "letra": "B",
+        "texto": "18",
+        "imagem": "matematica/M22_B.png",
+        "correta": true
+      },
+      {
+        "id": 87,
+        "letra": "C",
+        "texto": "20",
+        "imagem": "matematica/M22_C.png",
+        "correta": false
+      },
+      {
+        "id": 88,
+        "letra": "D",
+        "texto": "14",
+        "imagem": "matematica/M22_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "codigo": "M23",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 5 × 5?",
+    "imagem_pergunta": "matematica/M23_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "5 grupos de 5 formam 25.",
+    "alternativas": [
+      {
+        "id": 89,
+        "letra": "A",
+        "texto": "23",
+        "imagem": "matematica/M23_A.png",
+        "correta": false
+      },
+      {
+        "id": 90,
+        "letra": "B",
+        "texto": "27",
+        "imagem": "matematica/M23_B.png",
+        "correta": false
+      },
+      {
+        "id": 91,
+        "letra": "C",
+        "texto": "25",
+        "imagem": "matematica/M23_C.png",
+        "correta": true
+      },
+      {
+        "id": 92,
+        "letra": "D",
+        "texto": "21",
+        "imagem": "matematica/M23_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "codigo": "M24",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 8 × 4?",
+    "imagem_pergunta": "matematica/M24_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "8 grupos de 4 formam 32.",
+    "alternativas": [
+      {
+        "id": 93,
+        "letra": "A",
+        "texto": "30",
+        "imagem": "matematica/M24_A.png",
+        "correta": false
+      },
+      {
+        "id": 94,
+        "letra": "B",
+        "texto": "34",
+        "imagem": "matematica/M24_B.png",
+        "correta": false
+      },
+      {
+        "id": 95,
+        "letra": "C",
+        "texto": "28",
+        "imagem": "matematica/M24_C.png",
+        "correta": false
+      },
+      {
+        "id": 96,
+        "letra": "D",
+        "texto": "32",
+        "imagem": "matematica/M24_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "codigo": "M25",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 7 × 7?",
+    "imagem_pergunta": "matematica/M25_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "7 grupos de 7 formam 49.",
+    "alternativas": [
+      {
+        "id": 97,
+        "letra": "A",
+        "texto": "49",
+        "imagem": "matematica/M25_A.png",
+        "correta": true
+      },
+      {
+        "id": 98,
+        "letra": "B",
+        "texto": "47",
+        "imagem": "matematica/M25_B.png",
+        "correta": false
+      },
+      {
+        "id": 99,
+        "letra": "C",
+        "texto": "51",
+        "imagem": "matematica/M25_C.png",
+        "correta": false
+      },
+      {
+        "id": 100,
+        "letra": "D",
+        "texto": "45",
+        "imagem": "matematica/M25_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "codigo": "M26",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 9 × 6?",
+    "imagem_pergunta": "matematica/M26_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "9 grupos de 6 formam 54.",
+    "alternativas": [
+      {
+        "id": 101,
+        "letra": "A",
+        "texto": "52",
+        "imagem": "matematica/M26_A.png",
+        "correta": false
+      },
+      {
+        "id": 102,
+        "letra": "B",
+        "texto": "54",
+        "imagem": "matematica/M26_B.png",
+        "correta": true
+      },
+      {
+        "id": 103,
+        "letra": "C",
+        "texto": "56",
+        "imagem": "matematica/M26_C.png",
+        "correta": false
+      },
+      {
+        "id": 104,
+        "letra": "D",
+        "texto": "50",
+        "imagem": "matematica/M26_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "codigo": "M27",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 10 × 3?",
+    "imagem_pergunta": "matematica/M27_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "10 grupos de 3 formam 30.",
+    "alternativas": [
+      {
+        "id": 105,
+        "letra": "A",
+        "texto": "28",
+        "imagem": "matematica/M27_A.png",
+        "correta": false
+      },
+      {
+        "id": 106,
+        "letra": "B",
+        "texto": "32",
+        "imagem": "matematica/M27_B.png",
+        "correta": false
+      },
+      {
+        "id": 107,
+        "letra": "C",
+        "texto": "30",
+        "imagem": "matematica/M27_C.png",
+        "correta": true
+      },
+      {
+        "id": 108,
+        "letra": "D",
+        "texto": "26",
+        "imagem": "matematica/M27_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "codigo": "M28",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 4 × 4?",
+    "imagem_pergunta": "matematica/M28_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "4 grupos de 4 formam 16.",
+    "alternativas": [
+      {
+        "id": 109,
+        "letra": "A",
+        "texto": "14",
+        "imagem": "matematica/M28_A.png",
+        "correta": false
+      },
+      {
+        "id": 110,
+        "letra": "B",
+        "texto": "18",
+        "imagem": "matematica/M28_B.png",
+        "correta": false
+      },
+      {
+        "id": 111,
+        "letra": "C",
+        "texto": "12",
+        "imagem": "matematica/M28_C.png",
+        "correta": false
+      },
+      {
+        "id": 112,
+        "letra": "D",
+        "texto": "16",
+        "imagem": "matematica/M28_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "codigo": "M29",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 6 × 8?",
+    "imagem_pergunta": "matematica/M29_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "6 grupos de 8 formam 48.",
+    "alternativas": [
+      {
+        "id": 113,
+        "letra": "A",
+        "texto": "48",
+        "imagem": "matematica/M29_A.png",
+        "correta": true
+      },
+      {
+        "id": 114,
+        "letra": "B",
+        "texto": "46",
+        "imagem": "matematica/M29_B.png",
+        "correta": false
+      },
+      {
+        "id": 115,
+        "letra": "C",
+        "texto": "50",
+        "imagem": "matematica/M29_C.png",
+        "correta": false
+      },
+      {
+        "id": 116,
+        "letra": "D",
+        "texto": "44",
+        "imagem": "matematica/M29_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "codigo": "M30",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 2 × 6?",
+    "imagem_pergunta": "matematica/M30_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "2 grupos de 6 formam 12.",
+    "alternativas": [
+      {
+        "id": 117,
+        "letra": "A",
+        "texto": "10",
+        "imagem": "matematica/M30_A.png",
+        "correta": false
+      },
+      {
+        "id": 118,
+        "letra": "B",
+        "texto": "12",
+        "imagem": "matematica/M30_B.png",
+        "correta": true
+      },
+      {
+        "id": 119,
+        "letra": "C",
+        "texto": "14",
+        "imagem": "matematica/M30_C.png",
+        "correta": false
+      },
+      {
+        "id": 120,
+        "letra": "D",
+        "texto": "8",
+        "imagem": "matematica/M30_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "codigo": "M31",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 3 × 9?",
+    "imagem_pergunta": "matematica/M31_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "3 grupos de 9 formam 27.",
+    "alternativas": [
+      {
+        "id": 121,
+        "letra": "A",
+        "texto": "25",
+        "imagem": "matematica/M31_A.png",
+        "correta": false
+      },
+      {
+        "id": 122,
+        "letra": "B",
+        "texto": "29",
+        "imagem": "matematica/M31_B.png",
+        "correta": false
+      },
+      {
+        "id": 123,
+        "letra": "C",
+        "texto": "27",
+        "imagem": "matematica/M31_C.png",
+        "correta": true
+      },
+      {
+        "id": 124,
+        "letra": "D",
+        "texto": "23",
+        "imagem": "matematica/M31_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "codigo": "M32",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 5 × 7?",
+    "imagem_pergunta": "matematica/M32_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "5 grupos de 7 formam 35.",
+    "alternativas": [
+      {
+        "id": 125,
+        "letra": "A",
+        "texto": "33",
+        "imagem": "matematica/M32_A.png",
+        "correta": false
+      },
+      {
+        "id": 126,
+        "letra": "B",
+        "texto": "37",
+        "imagem": "matematica/M32_B.png",
+        "correta": false
+      },
+      {
+        "id": 127,
+        "letra": "C",
+        "texto": "31",
+        "imagem": "matematica/M32_C.png",
+        "correta": false
+      },
+      {
+        "id": 128,
+        "letra": "D",
+        "texto": "35",
+        "imagem": "matematica/M32_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "codigo": "M33",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 8 × 9?",
+    "imagem_pergunta": "matematica/M33_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "8 grupos de 9 formam 72.",
+    "alternativas": [
+      {
+        "id": 129,
+        "letra": "A",
+        "texto": "72",
+        "imagem": "matematica/M33_A.png",
+        "correta": true
+      },
+      {
+        "id": 130,
+        "letra": "B",
+        "texto": "70",
+        "imagem": "matematica/M33_B.png",
+        "correta": false
+      },
+      {
+        "id": 131,
+        "letra": "C",
+        "texto": "74",
+        "imagem": "matematica/M33_C.png",
+        "correta": false
+      },
+      {
+        "id": 132,
+        "letra": "D",
+        "texto": "68",
+        "imagem": "matematica/M33_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "codigo": "M34",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 7 × 4?",
+    "imagem_pergunta": "matematica/M34_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "7 grupos de 4 formam 28.",
+    "alternativas": [
+      {
+        "id": 133,
+        "letra": "A",
+        "texto": "26",
+        "imagem": "matematica/M34_A.png",
+        "correta": false
+      },
+      {
+        "id": 134,
+        "letra": "B",
+        "texto": "28",
+        "imagem": "matematica/M34_B.png",
+        "correta": true
+      },
+      {
+        "id": 135,
+        "letra": "C",
+        "texto": "30",
+        "imagem": "matematica/M34_C.png",
+        "correta": false
+      },
+      {
+        "id": 136,
+        "letra": "D",
+        "texto": "24",
+        "imagem": "matematica/M34_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "codigo": "M35",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 9 × 5?",
+    "imagem_pergunta": "matematica/M35_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "9 grupos de 5 formam 45.",
+    "alternativas": [
+      {
+        "id": 137,
+        "letra": "A",
+        "texto": "43",
+        "imagem": "matematica/M35_A.png",
+        "correta": false
+      },
+      {
+        "id": 138,
+        "letra": "B",
+        "texto": "47",
+        "imagem": "matematica/M35_B.png",
+        "correta": false
+      },
+      {
+        "id": 139,
+        "letra": "C",
+        "texto": "45",
+        "imagem": "matematica/M35_C.png",
+        "correta": true
+      },
+      {
+        "id": 140,
+        "letra": "D",
+        "texto": "41",
+        "imagem": "matematica/M35_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "codigo": "M36",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 10 × 10?",
+    "imagem_pergunta": "matematica/M36_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "10 grupos de 10 formam 100.",
+    "alternativas": [
+      {
+        "id": 141,
+        "letra": "A",
+        "texto": "98",
+        "imagem": "matematica/M36_A.png",
+        "correta": false
+      },
+      {
+        "id": 142,
+        "letra": "B",
+        "texto": "102",
+        "imagem": "matematica/M36_B.png",
+        "correta": false
+      },
+      {
+        "id": 143,
+        "letra": "C",
+        "texto": "96",
+        "imagem": "matematica/M36_C.png",
+        "correta": false
+      },
+      {
+        "id": 144,
+        "letra": "D",
+        "texto": "100",
+        "imagem": "matematica/M36_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "codigo": "M37",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 2 × 8?",
+    "imagem_pergunta": "matematica/M37_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "2 grupos de 8 formam 16.",
+    "alternativas": [
+      {
+        "id": 145,
+        "letra": "A",
+        "texto": "16",
+        "imagem": "matematica/M37_A.png",
+        "correta": true
+      },
+      {
+        "id": 146,
+        "letra": "B",
+        "texto": "14",
+        "imagem": "matematica/M37_B.png",
+        "correta": false
+      },
+      {
+        "id": 147,
+        "letra": "C",
+        "texto": "18",
+        "imagem": "matematica/M37_C.png",
+        "correta": false
+      },
+      {
+        "id": 148,
+        "letra": "D",
+        "texto": "12",
+        "imagem": "matematica/M37_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "codigo": "M38",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 3 × 6?",
+    "imagem_pergunta": "matematica/M38_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "3 grupos de 6 formam 18.",
+    "alternativas": [
+      {
+        "id": 149,
+        "letra": "A",
+        "texto": "16",
+        "imagem": "matematica/M38_A.png",
+        "correta": false
+      },
+      {
+        "id": 150,
+        "letra": "B",
+        "texto": "18",
+        "imagem": "matematica/M38_B.png",
+        "correta": true
+      },
+      {
+        "id": 151,
+        "letra": "C",
+        "texto": "20",
+        "imagem": "matematica/M38_C.png",
+        "correta": false
+      },
+      {
+        "id": 152,
+        "letra": "D",
+        "texto": "14",
+        "imagem": "matematica/M38_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "codigo": "M39",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 4 × 7?",
+    "imagem_pergunta": "matematica/M39_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "4 grupos de 7 formam 28.",
+    "alternativas": [
+      {
+        "id": 153,
+        "letra": "A",
+        "texto": "26",
+        "imagem": "matematica/M39_A.png",
+        "correta": false
+      },
+      {
+        "id": 154,
+        "letra": "B",
+        "texto": "30",
+        "imagem": "matematica/M39_B.png",
+        "correta": false
+      },
+      {
+        "id": 155,
+        "letra": "C",
+        "texto": "28",
+        "imagem": "matematica/M39_C.png",
+        "correta": true
+      },
+      {
+        "id": 156,
+        "letra": "D",
+        "texto": "24",
+        "imagem": "matematica/M39_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "codigo": "M40",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 6 × 9?",
+    "imagem_pergunta": "matematica/M40_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "6 grupos de 9 formam 54.",
+    "alternativas": [
+      {
+        "id": 157,
+        "letra": "A",
+        "texto": "52",
+        "imagem": "matematica/M40_A.png",
+        "correta": false
+      },
+      {
+        "id": 158,
+        "letra": "B",
+        "texto": "56",
+        "imagem": "matematica/M40_B.png",
+        "correta": false
+      },
+      {
+        "id": 159,
+        "letra": "C",
+        "texto": "50",
+        "imagem": "matematica/M40_C.png",
+        "correta": false
+      },
+      {
+        "id": 160,
+        "letra": "D",
+        "texto": "54",
+        "imagem": "matematica/M40_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "codigo": "M41",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 5 × 8?",
+    "imagem_pergunta": "matematica/M41_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "5 grupos de 8 formam 40.",
+    "alternativas": [
+      {
+        "id": 161,
+        "letra": "A",
+        "texto": "40",
+        "imagem": "matematica/M41_A.png",
+        "correta": true
+      },
+      {
+        "id": 162,
+        "letra": "B",
+        "texto": "38",
+        "imagem": "matematica/M41_B.png",
+        "correta": false
+      },
+      {
+        "id": 163,
+        "letra": "C",
+        "texto": "42",
+        "imagem": "matematica/M41_C.png",
+        "correta": false
+      },
+      {
+        "id": 164,
+        "letra": "D",
+        "texto": "36",
+        "imagem": "matematica/M41_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "codigo": "M42",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 7 × 6?",
+    "imagem_pergunta": "matematica/M42_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "7 grupos de 6 formam 42.",
+    "alternativas": [
+      {
+        "id": 165,
+        "letra": "A",
+        "texto": "40",
+        "imagem": "matematica/M42_A.png",
+        "correta": false
+      },
+      {
+        "id": 166,
+        "letra": "B",
+        "texto": "42",
+        "imagem": "matematica/M42_B.png",
+        "correta": true
+      },
+      {
+        "id": 167,
+        "letra": "C",
+        "texto": "44",
+        "imagem": "matematica/M42_C.png",
+        "correta": false
+      },
+      {
+        "id": 168,
+        "letra": "D",
+        "texto": "38",
+        "imagem": "matematica/M42_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "codigo": "M43",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 8 × 2?",
+    "imagem_pergunta": "matematica/M43_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "8 grupos de 2 formam 16.",
+    "alternativas": [
+      {
+        "id": 169,
+        "letra": "A",
+        "texto": "14",
+        "imagem": "matematica/M43_A.png",
+        "correta": false
+      },
+      {
+        "id": 170,
+        "letra": "B",
+        "texto": "18",
+        "imagem": "matematica/M43_B.png",
+        "correta": false
+      },
+      {
+        "id": 171,
+        "letra": "C",
+        "texto": "16",
+        "imagem": "matematica/M43_C.png",
+        "correta": true
+      },
+      {
+        "id": 172,
+        "letra": "D",
+        "texto": "12",
+        "imagem": "matematica/M43_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "codigo": "M44",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 9 × 4?",
+    "imagem_pergunta": "matematica/M44_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "9 grupos de 4 formam 36.",
+    "alternativas": [
+      {
+        "id": 173,
+        "letra": "A",
+        "texto": "34",
+        "imagem": "matematica/M44_A.png",
+        "correta": false
+      },
+      {
+        "id": 174,
+        "letra": "B",
+        "texto": "38",
+        "imagem": "matematica/M44_B.png",
+        "correta": false
+      },
+      {
+        "id": 175,
+        "letra": "C",
+        "texto": "32",
+        "imagem": "matematica/M44_C.png",
+        "correta": false
+      },
+      {
+        "id": 176,
+        "letra": "D",
+        "texto": "36",
+        "imagem": "matematica/M44_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "codigo": "M45",
+    "materia": "MATEMATICA",
+    "pergunta": "Quanto é 10 × 7?",
+    "imagem_pergunta": "matematica/M45_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "10 grupos de 7 formam 70.",
+    "alternativas": [
+      {
+        "id": 177,
+        "letra": "A",
+        "texto": "70",
+        "imagem": "matematica/M45_A.png",
+        "correta": true
+      },
+      {
+        "id": 178,
+        "letra": "B",
+        "texto": "68",
+        "imagem": "matematica/M45_B.png",
+        "correta": false
+      },
+      {
+        "id": 179,
+        "letra": "C",
+        "texto": "72",
+        "imagem": "matematica/M45_C.png",
+        "correta": false
+      },
+      {
+        "id": 180,
+        "letra": "D",
+        "texto": "66",
+        "imagem": "matematica/M45_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "codigo": "M46",
+    "materia": "MATEMATICA",
+    "pergunta": "Há 3 caixas com 2 lápis em cada uma. Quantos lápis há ao todo?",
+    "imagem_pergunta": "matematica/M46_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "3 × 2 = 6.",
+    "alternativas": [
+      {
+        "id": 181,
+        "letra": "A",
+        "texto": "4",
+        "imagem": "matematica/M46_A.png",
+        "correta": false
+      },
+      {
+        "id": 182,
+        "letra": "B",
+        "texto": "6",
+        "imagem": "matematica/M46_B.png",
+        "correta": true
+      },
+      {
+        "id": 183,
+        "letra": "C",
+        "texto": "8",
+        "imagem": "matematica/M46_C.png",
+        "correta": false
+      },
+      {
+        "id": 184,
+        "letra": "D",
+        "texto": "2",
+        "imagem": "matematica/M46_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "codigo": "M47",
+    "materia": "MATEMATICA",
+    "pergunta": "Cada uma das 4 mesas tem 3 cadeiras. Quantas cadeiras há?",
+    "imagem_pergunta": "matematica/M47_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "4 × 3 = 12.",
+    "alternativas": [
+      {
+        "id": 185,
+        "letra": "A",
+        "texto": "10",
+        "imagem": "matematica/M47_A.png",
+        "correta": false
+      },
+      {
+        "id": 186,
+        "letra": "B",
+        "texto": "14",
+        "imagem": "matematica/M47_B.png",
+        "correta": false
+      },
+      {
+        "id": 187,
+        "letra": "C",
+        "texto": "12",
+        "imagem": "matematica/M47_C.png",
+        "correta": true
+      },
+      {
+        "id": 188,
+        "letra": "D",
+        "texto": "8",
+        "imagem": "matematica/M47_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "codigo": "M48",
+    "materia": "MATEMATICA",
+    "pergunta": "Há 5 sacolas com 4 maçãs em cada. Quantas maçãs há?",
+    "imagem_pergunta": "matematica/M48_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "5 × 4 = 20.",
+    "alternativas": [
+      {
+        "id": 189,
+        "letra": "A",
+        "texto": "18",
+        "imagem": "matematica/M48_A.png",
+        "correta": false
+      },
+      {
+        "id": 190,
+        "letra": "B",
+        "texto": "22",
+        "imagem": "matematica/M48_B.png",
+        "correta": false
+      },
+      {
+        "id": 191,
+        "letra": "C",
+        "texto": "16",
+        "imagem": "matematica/M48_C.png",
+        "correta": false
+      },
+      {
+        "id": 192,
+        "letra": "D",
+        "texto": "20",
+        "imagem": "matematica/M48_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "codigo": "M49",
+    "materia": "MATEMATICA",
+    "pergunta": "Uma criança lê 6 páginas por dia durante 5 dias. Quantas páginas lê?",
+    "imagem_pergunta": "matematica/M49_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "6 × 5 = 30.",
+    "alternativas": [
+      {
+        "id": 193,
+        "letra": "A",
+        "texto": "30",
+        "imagem": "matematica/M49_A.png",
+        "correta": true
+      },
+      {
+        "id": 194,
+        "letra": "B",
+        "texto": "28",
+        "imagem": "matematica/M49_B.png",
+        "correta": false
+      },
+      {
+        "id": 195,
+        "letra": "C",
+        "texto": "32",
+        "imagem": "matematica/M49_C.png",
+        "correta": false
+      },
+      {
+        "id": 196,
+        "letra": "D",
+        "texto": "26",
+        "imagem": "matematica/M49_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "codigo": "M50",
+    "materia": "MATEMATICA",
+    "pergunta": "Há 7 fileiras com 2 plantas em cada. Quantas plantas há?",
+    "imagem_pergunta": "matematica/M50_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "7 × 2 = 14.",
+    "alternativas": [
+      {
+        "id": 197,
+        "letra": "A",
+        "texto": "12",
+        "imagem": "matematica/M50_A.png",
+        "correta": false
+      },
+      {
+        "id": 198,
+        "letra": "B",
+        "texto": "14",
+        "imagem": "matematica/M50_B.png",
+        "correta": true
+      },
+      {
+        "id": 199,
+        "letra": "C",
+        "texto": "16",
+        "imagem": "matematica/M50_C.png",
+        "correta": false
+      },
+      {
+        "id": 200,
+        "letra": "D",
+        "texto": "10",
+        "imagem": "matematica/M50_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "codigo": "G01",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Brasil?",
+    "imagem_pergunta": "geografia/G01_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem fundo verde, losango amarelo e círculo azul.",
+    "alternativas": [
+      {
+        "id": 201,
+        "letra": "A",
+        "codigo_pais": "BR",
+        "imagem": "geografia/G01_A.png",
+        "correta": true
+      },
+      {
+        "id": 202,
+        "letra": "B",
+        "codigo_pais": "AR",
+        "imagem": "geografia/G01_B.png",
+        "correta": false
+      },
+      {
+        "id": 203,
+        "letra": "C",
+        "codigo_pais": "PT",
+        "imagem": "geografia/G01_C.png",
+        "correta": false
+      },
+      {
+        "id": 204,
+        "letra": "D",
+        "codigo_pais": "CA",
+        "imagem": "geografia/G01_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "codigo": "G02",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Japão?",
+    "imagem_pergunta": "geografia/G02_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem círculo vermelho sobre fundo branco.",
+    "alternativas": [
+      {
+        "id": 205,
+        "letra": "A",
+        "codigo_pais": "CN",
+        "imagem": "geografia/G02_A.png",
+        "correta": false
+      },
+      {
+        "id": 206,
+        "letra": "B",
+        "codigo_pais": "JP",
+        "imagem": "geografia/G02_B.png",
+        "correta": true
+      },
+      {
+        "id": 207,
+        "letra": "C",
+        "codigo_pais": "KR",
+        "imagem": "geografia/G02_C.png",
+        "correta": false
+      },
+      {
+        "id": 208,
+        "letra": "D",
+        "codigo_pais": "TH",
+        "imagem": "geografia/G02_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "codigo": "G03",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Canadá?",
+    "imagem_pergunta": "geografia/G03_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem folha vermelha ao centro.",
+    "alternativas": [
+      {
+        "id": 209,
+        "letra": "A",
+        "codigo_pais": "US",
+        "imagem": "geografia/G03_A.png",
+        "correta": false
+      },
+      {
+        "id": 210,
+        "letra": "B",
+        "codigo_pais": "GB",
+        "imagem": "geografia/G03_B.png",
+        "correta": false
+      },
+      {
+        "id": 211,
+        "letra": "C",
+        "codigo_pais": "CA",
+        "imagem": "geografia/G03_C.png",
+        "correta": true
+      },
+      {
+        "id": 212,
+        "letra": "D",
+        "codigo_pais": "AU",
+        "imagem": "geografia/G03_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "codigo": "G04",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Argentina?",
+    "imagem_pergunta": "geografia/G04_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas azul-claras e brancas e um sol.",
+    "alternativas": [
+      {
+        "id": 213,
+        "letra": "A",
+        "codigo_pais": "UY",
+        "imagem": "geografia/G04_A.png",
+        "correta": false
+      },
+      {
+        "id": 214,
+        "letra": "B",
+        "codigo_pais": "GR",
+        "imagem": "geografia/G04_B.png",
+        "correta": false
+      },
+      {
+        "id": 215,
+        "letra": "C",
+        "codigo_pais": "BR",
+        "imagem": "geografia/G04_C.png",
+        "correta": false
+      },
+      {
+        "id": 216,
+        "letra": "D",
+        "codigo_pais": "AR",
+        "imagem": "geografia/G04_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "codigo": "G05",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Portugal?",
+    "imagem_pergunta": "geografia/G05_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem partes verde e vermelha com um brasão.",
+    "alternativas": [
+      {
+        "id": 217,
+        "letra": "A",
+        "codigo_pais": "PT",
+        "imagem": "geografia/G05_A.png",
+        "correta": true
+      },
+      {
+        "id": 218,
+        "letra": "B",
+        "codigo_pais": "ES",
+        "imagem": "geografia/G05_B.png",
+        "correta": false
+      },
+      {
+        "id": 219,
+        "letra": "C",
+        "codigo_pais": "IT",
+        "imagem": "geografia/G05_C.png",
+        "correta": false
+      },
+      {
+        "id": 220,
+        "letra": "D",
+        "codigo_pais": "MX",
+        "imagem": "geografia/G05_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "codigo": "G06",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: África do Sul?",
+    "imagem_pergunta": "geografia/G06_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixa verde em forma de Y entre várias cores.",
+    "alternativas": [
+      {
+        "id": 221,
+        "letra": "A",
+        "codigo_pais": "KE",
+        "imagem": "geografia/G06_A.png",
+        "correta": false
+      },
+      {
+        "id": 222,
+        "letra": "B",
+        "codigo_pais": "ZA",
+        "imagem": "geografia/G06_B.png",
+        "correta": true
+      },
+      {
+        "id": 223,
+        "letra": "C",
+        "codigo_pais": "NG",
+        "imagem": "geografia/G06_C.png",
+        "correta": false
+      },
+      {
+        "id": 224,
+        "letra": "D",
+        "codigo_pais": "GH",
+        "imagem": "geografia/G06_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "codigo": "G07",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Alemanha?",
+    "imagem_pergunta": "geografia/G07_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas horizontais preta, vermelha e amarela.",
+    "alternativas": [
+      {
+        "id": 225,
+        "letra": "A",
+        "codigo_pais": "BE",
+        "imagem": "geografia/G07_A.png",
+        "correta": false
+      },
+      {
+        "id": 226,
+        "letra": "B",
+        "codigo_pais": "FR",
+        "imagem": "geografia/G07_B.png",
+        "correta": false
+      },
+      {
+        "id": 227,
+        "letra": "C",
+        "codigo_pais": "DE",
+        "imagem": "geografia/G07_C.png",
+        "correta": true
+      },
+      {
+        "id": 228,
+        "letra": "D",
+        "codigo_pais": "IT",
+        "imagem": "geografia/G07_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "codigo": "G08",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Itália?",
+    "imagem_pergunta": "geografia/G08_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas verticais verde, branca e vermelha.",
+    "alternativas": [
+      {
+        "id": 229,
+        "letra": "A",
+        "codigo_pais": "IE",
+        "imagem": "geografia/G08_A.png",
+        "correta": false
+      },
+      {
+        "id": 230,
+        "letra": "B",
+        "codigo_pais": "MX",
+        "imagem": "geografia/G08_B.png",
+        "correta": false
+      },
+      {
+        "id": 231,
+        "letra": "C",
+        "codigo_pais": "FR",
+        "imagem": "geografia/G08_C.png",
+        "correta": false
+      },
+      {
+        "id": 232,
+        "letra": "D",
+        "codigo_pais": "IT",
+        "imagem": "geografia/G08_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "codigo": "G09",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: México?",
+    "imagem_pergunta": "geografia/G09_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas verde, branca e vermelha com brasão ao centro.",
+    "alternativas": [
+      {
+        "id": 233,
+        "letra": "A",
+        "codigo_pais": "MX",
+        "imagem": "geografia/G09_A.png",
+        "correta": true
+      },
+      {
+        "id": 234,
+        "letra": "B",
+        "codigo_pais": "IT",
+        "imagem": "geografia/G09_B.png",
+        "correta": false
+      },
+      {
+        "id": 235,
+        "letra": "C",
+        "codigo_pais": "PT",
+        "imagem": "geografia/G09_C.png",
+        "correta": false
+      },
+      {
+        "id": 236,
+        "letra": "D",
+        "codigo_pais": "ES",
+        "imagem": "geografia/G09_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "codigo": "G10",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Austrália?",
+    "imagem_pergunta": "geografia/G10_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem fundo azul com estrelas e símbolo britânico no canto.",
+    "alternativas": [
+      {
+        "id": 237,
+        "letra": "A",
+        "codigo_pais": "NZ",
+        "imagem": "geografia/G10_A.png",
+        "correta": false
+      },
+      {
+        "id": 238,
+        "letra": "B",
+        "codigo_pais": "AU",
+        "imagem": "geografia/G10_B.png",
+        "correta": true
+      },
+      {
+        "id": 239,
+        "letra": "C",
+        "codigo_pais": "GB",
+        "imagem": "geografia/G10_C.png",
+        "correta": false
+      },
+      {
+        "id": 240,
+        "letra": "D",
+        "codigo_pais": "US",
+        "imagem": "geografia/G10_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "codigo": "G11",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Estados Unidos?",
+    "imagem_pergunta": "geografia/G11_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem listras vermelhas e brancas com estrelas em fundo azul.",
+    "alternativas": [
+      {
+        "id": 241,
+        "letra": "A",
+        "codigo_pais": "MY",
+        "imagem": "geografia/G11_A.png",
+        "correta": false
+      },
+      {
+        "id": 242,
+        "letra": "B",
+        "codigo_pais": "LR",
+        "imagem": "geografia/G11_B.png",
+        "correta": false
+      },
+      {
+        "id": 243,
+        "letra": "C",
+        "codigo_pais": "US",
+        "imagem": "geografia/G11_C.png",
+        "correta": true
+      },
+      {
+        "id": 244,
+        "letra": "D",
+        "codigo_pais": "GB",
+        "imagem": "geografia/G11_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "codigo": "G12",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Reino Unido?",
+    "imagem_pergunta": "geografia/G12_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem cruzes vermelhas e brancas sobre fundo azul.",
+    "alternativas": [
+      {
+        "id": 245,
+        "letra": "A",
+        "codigo_pais": "AU",
+        "imagem": "geografia/G12_A.png",
+        "correta": false
+      },
+      {
+        "id": 246,
+        "letra": "B",
+        "codigo_pais": "NZ",
+        "imagem": "geografia/G12_B.png",
+        "correta": false
+      },
+      {
+        "id": 247,
+        "letra": "C",
+        "codigo_pais": "NO",
+        "imagem": "geografia/G12_C.png",
+        "correta": false
+      },
+      {
+        "id": 248,
+        "letra": "D",
+        "codigo_pais": "GB",
+        "imagem": "geografia/G12_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "codigo": "G13",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: França?",
+    "imagem_pergunta": "geografia/G13_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas verticais azul, branca e vermelha.",
+    "alternativas": [
+      {
+        "id": 249,
+        "letra": "A",
+        "codigo_pais": "FR",
+        "imagem": "geografia/G13_A.png",
+        "correta": true
+      },
+      {
+        "id": 250,
+        "letra": "B",
+        "codigo_pais": "NL",
+        "imagem": "geografia/G13_B.png",
+        "correta": false
+      },
+      {
+        "id": 251,
+        "letra": "C",
+        "codigo_pais": "RU",
+        "imagem": "geografia/G13_C.png",
+        "correta": false
+      },
+      {
+        "id": 252,
+        "letra": "D",
+        "codigo_pais": "IT",
+        "imagem": "geografia/G13_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "codigo": "G14",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Espanha?",
+    "imagem_pergunta": "geografia/G14_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas vermelhas e amarela com brasão.",
+    "alternativas": [
+      {
+        "id": 253,
+        "letra": "A",
+        "codigo_pais": "PT",
+        "imagem": "geografia/G14_A.png",
+        "correta": false
+      },
+      {
+        "id": 254,
+        "letra": "B",
+        "codigo_pais": "ES",
+        "imagem": "geografia/G14_B.png",
+        "correta": true
+      },
+      {
+        "id": 255,
+        "letra": "C",
+        "codigo_pais": "CO",
+        "imagem": "geografia/G14_C.png",
+        "correta": false
+      },
+      {
+        "id": 256,
+        "letra": "D",
+        "codigo_pais": "RO",
+        "imagem": "geografia/G14_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "codigo": "G15",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: China?",
+    "imagem_pergunta": "geografia/G15_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem fundo vermelho e estrelas amarelas.",
+    "alternativas": [
+      {
+        "id": 257,
+        "letra": "A",
+        "codigo_pais": "VN",
+        "imagem": "geografia/G15_A.png",
+        "correta": false
+      },
+      {
+        "id": 258,
+        "letra": "B",
+        "codigo_pais": "TR",
+        "imagem": "geografia/G15_B.png",
+        "correta": false
+      },
+      {
+        "id": 259,
+        "letra": "C",
+        "codigo_pais": "CN",
+        "imagem": "geografia/G15_C.png",
+        "correta": true
+      },
+      {
+        "id": 260,
+        "letra": "D",
+        "codigo_pais": "JP",
+        "imagem": "geografia/G15_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "codigo": "G16",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Coreia do Sul?",
+    "imagem_pergunta": "geografia/G16_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem símbolo vermelho e azul ao centro com marcas pretas.",
+    "alternativas": [
+      {
+        "id": 261,
+        "letra": "A",
+        "codigo_pais": "JP",
+        "imagem": "geografia/G16_A.png",
+        "correta": false
+      },
+      {
+        "id": 262,
+        "letra": "B",
+        "codigo_pais": "CN",
+        "imagem": "geografia/G16_B.png",
+        "correta": false
+      },
+      {
+        "id": 263,
+        "letra": "C",
+        "codigo_pais": "TH",
+        "imagem": "geografia/G16_C.png",
+        "correta": false
+      },
+      {
+        "id": 264,
+        "letra": "D",
+        "codigo_pais": "KR",
+        "imagem": "geografia/G16_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "codigo": "G17",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Índia?",
+    "imagem_pergunta": "geografia/G17_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas laranja, branca e verde com roda azul.",
+    "alternativas": [
+      {
+        "id": 265,
+        "letra": "A",
+        "codigo_pais": "IN",
+        "imagem": "geografia/G17_A.png",
+        "correta": true
+      },
+      {
+        "id": 266,
+        "letra": "B",
+        "codigo_pais": "IE",
+        "imagem": "geografia/G17_B.png",
+        "correta": false
+      },
+      {
+        "id": 267,
+        "letra": "C",
+        "codigo_pais": "NE",
+        "imagem": "geografia/G17_C.png",
+        "correta": false
+      },
+      {
+        "id": 268,
+        "letra": "D",
+        "codigo_pais": "CI",
+        "imagem": "geografia/G17_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "codigo": "G18",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Rússia?",
+    "imagem_pergunta": "geografia/G18_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas horizontais branca, azul e vermelha.",
+    "alternativas": [
+      {
+        "id": 269,
+        "letra": "A",
+        "codigo_pais": "NL",
+        "imagem": "geografia/G18_A.png",
+        "correta": false
+      },
+      {
+        "id": 270,
+        "letra": "B",
+        "codigo_pais": "RU",
+        "imagem": "geografia/G18_B.png",
+        "correta": true
+      },
+      {
+        "id": 271,
+        "letra": "C",
+        "codigo_pais": "FR",
+        "imagem": "geografia/G18_C.png",
+        "correta": false
+      },
+      {
+        "id": 272,
+        "letra": "D",
+        "codigo_pais": "LU",
+        "imagem": "geografia/G18_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "codigo": "G19",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Chile?",
+    "imagem_pergunta": "geografia/G19_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem estrela branca em quadrado azul com branco e vermelho.",
+    "alternativas": [
+      {
+        "id": 273,
+        "letra": "A",
+        "codigo_pais": "CU",
+        "imagem": "geografia/G19_A.png",
+        "correta": false
+      },
+      {
+        "id": 274,
+        "letra": "B",
+        "codigo_pais": "PR",
+        "imagem": "geografia/G19_B.png",
+        "correta": false
+      },
+      {
+        "id": 275,
+        "letra": "C",
+        "codigo_pais": "CL",
+        "imagem": "geografia/G19_C.png",
+        "correta": true
+      },
+      {
+        "id": 276,
+        "letra": "D",
+        "codigo_pais": "US",
+        "imagem": "geografia/G19_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "codigo": "G20",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Colômbia?",
+    "imagem_pergunta": "geografia/G20_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas amarela, azul e vermelha.",
+    "alternativas": [
+      {
+        "id": 277,
+        "letra": "A",
+        "codigo_pais": "VE",
+        "imagem": "geografia/G20_A.png",
+        "correta": false
+      },
+      {
+        "id": 278,
+        "letra": "B",
+        "codigo_pais": "EC",
+        "imagem": "geografia/G20_B.png",
+        "correta": false
+      },
+      {
+        "id": 279,
+        "letra": "C",
+        "codigo_pais": "RO",
+        "imagem": "geografia/G20_C.png",
+        "correta": false
+      },
+      {
+        "id": 280,
+        "letra": "D",
+        "codigo_pais": "CO",
+        "imagem": "geografia/G20_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "codigo": "G21",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Peru?",
+    "imagem_pergunta": "geografia/G21_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas verticais vermelha, branca e vermelha.",
+    "alternativas": [
+      {
+        "id": 281,
+        "letra": "A",
+        "codigo_pais": "PE",
+        "imagem": "geografia/G21_A.png",
+        "correta": true
+      },
+      {
+        "id": 282,
+        "letra": "B",
+        "codigo_pais": "CA",
+        "imagem": "geografia/G21_B.png",
+        "correta": false
+      },
+      {
+        "id": 283,
+        "letra": "C",
+        "codigo_pais": "AT",
+        "imagem": "geografia/G21_C.png",
+        "correta": false
+      },
+      {
+        "id": 284,
+        "letra": "D",
+        "codigo_pais": "PL",
+        "imagem": "geografia/G21_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "codigo": "G22",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Uruguai?",
+    "imagem_pergunta": "geografia/G22_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas azuis e brancas com sol no canto.",
+    "alternativas": [
+      {
+        "id": 285,
+        "letra": "A",
+        "codigo_pais": "AR",
+        "imagem": "geografia/G22_A.png",
+        "correta": false
+      },
+      {
+        "id": 286,
+        "letra": "B",
+        "codigo_pais": "UY",
+        "imagem": "geografia/G22_B.png",
+        "correta": true
+      },
+      {
+        "id": 287,
+        "letra": "C",
+        "codigo_pais": "GR",
+        "imagem": "geografia/G22_C.png",
+        "correta": false
+      },
+      {
+        "id": 288,
+        "letra": "D",
+        "codigo_pais": "US",
+        "imagem": "geografia/G22_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "codigo": "G23",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Paraguai?",
+    "imagem_pergunta": "geografia/G23_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas horizontais vermelha, branca e azul com emblema.",
+    "alternativas": [
+      {
+        "id": 289,
+        "letra": "A",
+        "codigo_pais": "NL",
+        "imagem": "geografia/G23_A.png",
+        "correta": false
+      },
+      {
+        "id": 290,
+        "letra": "B",
+        "codigo_pais": "FR",
+        "imagem": "geografia/G23_B.png",
+        "correta": false
+      },
+      {
+        "id": 291,
+        "letra": "C",
+        "codigo_pais": "PY",
+        "imagem": "geografia/G23_C.png",
+        "correta": true
+      },
+      {
+        "id": 292,
+        "letra": "D",
+        "codigo_pais": "RU",
+        "imagem": "geografia/G23_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "codigo": "G24",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Bolívia?",
+    "imagem_pergunta": "geografia/G24_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas vermelha, amarela e verde.",
+    "alternativas": [
+      {
+        "id": 293,
+        "letra": "A",
+        "codigo_pais": "GH",
+        "imagem": "geografia/G24_A.png",
+        "correta": false
+      },
+      {
+        "id": 294,
+        "letra": "B",
+        "codigo_pais": "LT",
+        "imagem": "geografia/G24_B.png",
+        "correta": false
+      },
+      {
+        "id": 295,
+        "letra": "C",
+        "codigo_pais": "ET",
+        "imagem": "geografia/G24_C.png",
+        "correta": false
+      },
+      {
+        "id": 296,
+        "letra": "D",
+        "codigo_pais": "BO",
+        "imagem": "geografia/G24_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "codigo": "G25",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Venezuela?",
+    "imagem_pergunta": "geografia/G25_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas amarela, azul e vermelha com estrelas.",
+    "alternativas": [
+      {
+        "id": 297,
+        "letra": "A",
+        "codigo_pais": "VE",
+        "imagem": "geografia/G25_A.png",
+        "correta": true
+      },
+      {
+        "id": 298,
+        "letra": "B",
+        "codigo_pais": "CO",
+        "imagem": "geografia/G25_B.png",
+        "correta": false
+      },
+      {
+        "id": 299,
+        "letra": "C",
+        "codigo_pais": "EC",
+        "imagem": "geografia/G25_C.png",
+        "correta": false
+      },
+      {
+        "id": 300,
+        "letra": "D",
+        "codigo_pais": "RO",
+        "imagem": "geografia/G25_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "codigo": "G26",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Equador?",
+    "imagem_pergunta": "geografia/G26_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas amarela, azul e vermelha com brasão.",
+    "alternativas": [
+      {
+        "id": 301,
+        "letra": "A",
+        "codigo_pais": "CO",
+        "imagem": "geografia/G26_A.png",
+        "correta": false
+      },
+      {
+        "id": 302,
+        "letra": "B",
+        "codigo_pais": "EC",
+        "imagem": "geografia/G26_B.png",
+        "correta": true
+      },
+      {
+        "id": 303,
+        "letra": "C",
+        "codigo_pais": "VE",
+        "imagem": "geografia/G26_C.png",
+        "correta": false
+      },
+      {
+        "id": 304,
+        "letra": "D",
+        "codigo_pais": "RO",
+        "imagem": "geografia/G26_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "codigo": "G27",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Cuba?",
+    "imagem_pergunta": "geografia/G27_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem triângulo vermelho, estrela branca e faixas azuis.",
+    "alternativas": [
+      {
+        "id": 305,
+        "letra": "A",
+        "codigo_pais": "PR",
+        "imagem": "geografia/G27_A.png",
+        "correta": false
+      },
+      {
+        "id": 306,
+        "letra": "B",
+        "codigo_pais": "CL",
+        "imagem": "geografia/G27_B.png",
+        "correta": false
+      },
+      {
+        "id": 307,
+        "letra": "C",
+        "codigo_pais": "CU",
+        "imagem": "geografia/G27_C.png",
+        "correta": true
+      },
+      {
+        "id": 308,
+        "letra": "D",
+        "codigo_pais": "US",
+        "imagem": "geografia/G27_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "codigo": "G28",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Jamaica?",
+    "imagem_pergunta": "geografia/G28_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem cruz diagonal amarela com verde e preto.",
+    "alternativas": [
+      {
+        "id": 309,
+        "letra": "A",
+        "codigo_pais": "ZA",
+        "imagem": "geografia/G28_A.png",
+        "correta": false
+      },
+      {
+        "id": 310,
+        "letra": "B",
+        "codigo_pais": "TZ",
+        "imagem": "geografia/G28_B.png",
+        "correta": false
+      },
+      {
+        "id": 311,
+        "letra": "C",
+        "codigo_pais": "KE",
+        "imagem": "geografia/G28_C.png",
+        "correta": false
+      },
+      {
+        "id": 312,
+        "letra": "D",
+        "codigo_pais": "JM",
+        "imagem": "geografia/G28_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "codigo": "G29",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Egito?",
+    "imagem_pergunta": "geografia/G29_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas vermelha, branca e preta com símbolo dourado.",
+    "alternativas": [
+      {
+        "id": 313,
+        "letra": "A",
+        "codigo_pais": "EG",
+        "imagem": "geografia/G29_A.png",
+        "correta": true
+      },
+      {
+        "id": 314,
+        "letra": "B",
+        "codigo_pais": "YE",
+        "imagem": "geografia/G29_B.png",
+        "correta": false
+      },
+      {
+        "id": 315,
+        "letra": "C",
+        "codigo_pais": "IQ",
+        "imagem": "geografia/G29_C.png",
+        "correta": false
+      },
+      {
+        "id": 316,
+        "letra": "D",
+        "codigo_pais": "SY",
+        "imagem": "geografia/G29_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "codigo": "G30",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Marrocos?",
+    "imagem_pergunta": "geografia/G30_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem fundo vermelho com estrela verde.",
+    "alternativas": [
+      {
+        "id": 317,
+        "letra": "A",
+        "codigo_pais": "TR",
+        "imagem": "geografia/G30_A.png",
+        "correta": false
+      },
+      {
+        "id": 318,
+        "letra": "B",
+        "codigo_pais": "MA",
+        "imagem": "geografia/G30_B.png",
+        "correta": true
+      },
+      {
+        "id": 319,
+        "letra": "C",
+        "codigo_pais": "TN",
+        "imagem": "geografia/G30_C.png",
+        "correta": false
+      },
+      {
+        "id": 320,
+        "letra": "D",
+        "codigo_pais": "VN",
+        "imagem": "geografia/G30_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "codigo": "G31",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Nigéria?",
+    "imagem_pergunta": "geografia/G31_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas verticais verde, branca e verde.",
+    "alternativas": [
+      {
+        "id": 321,
+        "letra": "A",
+        "codigo_pais": "IE",
+        "imagem": "geografia/G31_A.png",
+        "correta": false
+      },
+      {
+        "id": 322,
+        "letra": "B",
+        "codigo_pais": "CI",
+        "imagem": "geografia/G31_B.png",
+        "correta": false
+      },
+      {
+        "id": 323,
+        "letra": "C",
+        "codigo_pais": "NG",
+        "imagem": "geografia/G31_C.png",
+        "correta": true
+      },
+      {
+        "id": 324,
+        "letra": "D",
+        "codigo_pais": "GH",
+        "imagem": "geografia/G31_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "codigo": "G32",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Quênia?",
+    "imagem_pergunta": "geografia/G32_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas preta, vermelha e verde com escudo.",
+    "alternativas": [
+      {
+        "id": 325,
+        "letra": "A",
+        "codigo_pais": "UG",
+        "imagem": "geografia/G32_A.png",
+        "correta": false
+      },
+      {
+        "id": 326,
+        "letra": "B",
+        "codigo_pais": "MW",
+        "imagem": "geografia/G32_B.png",
+        "correta": false
+      },
+      {
+        "id": 327,
+        "letra": "C",
+        "codigo_pais": "ZA",
+        "imagem": "geografia/G32_C.png",
+        "correta": false
+      },
+      {
+        "id": 328,
+        "letra": "D",
+        "codigo_pais": "KE",
+        "imagem": "geografia/G32_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "codigo": "G33",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Gana?",
+    "imagem_pergunta": "geografia/G33_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas vermelha, amarela e verde com estrela preta.",
+    "alternativas": [
+      {
+        "id": 329,
+        "letra": "A",
+        "codigo_pais": "GH",
+        "imagem": "geografia/G33_A.png",
+        "correta": true
+      },
+      {
+        "id": 330,
+        "letra": "B",
+        "codigo_pais": "BO",
+        "imagem": "geografia/G33_B.png",
+        "correta": false
+      },
+      {
+        "id": 331,
+        "letra": "C",
+        "codigo_pais": "ET",
+        "imagem": "geografia/G33_C.png",
+        "correta": false
+      },
+      {
+        "id": 332,
+        "letra": "D",
+        "codigo_pais": "CM",
+        "imagem": "geografia/G33_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "codigo": "G34",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Etiópia?",
+    "imagem_pergunta": "geografia/G34_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas verde, amarela e vermelha com emblema azul.",
+    "alternativas": [
+      {
+        "id": 333,
+        "letra": "A",
+        "codigo_pais": "GH",
+        "imagem": "geografia/G34_A.png",
+        "correta": false
+      },
+      {
+        "id": 334,
+        "letra": "B",
+        "codigo_pais": "ET",
+        "imagem": "geografia/G34_B.png",
+        "correta": true
+      },
+      {
+        "id": 335,
+        "letra": "C",
+        "codigo_pais": "BO",
+        "imagem": "geografia/G34_C.png",
+        "correta": false
+      },
+      {
+        "id": 336,
+        "letra": "D",
+        "codigo_pais": "SN",
+        "imagem": "geografia/G34_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "codigo": "G35",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Angola?",
+    "imagem_pergunta": "geografia/G35_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem metade vermelha, metade preta com símbolo amarelo.",
+    "alternativas": [
+      {
+        "id": 337,
+        "letra": "A",
+        "codigo_pais": "DE",
+        "imagem": "geografia/G35_A.png",
+        "correta": false
+      },
+      {
+        "id": 338,
+        "letra": "B",
+        "codigo_pais": "UG",
+        "imagem": "geografia/G35_B.png",
+        "correta": false
+      },
+      {
+        "id": 339,
+        "letra": "C",
+        "codigo_pais": "AO",
+        "imagem": "geografia/G35_C.png",
+        "correta": true
+      },
+      {
+        "id": 340,
+        "letra": "D",
+        "codigo_pais": "MZ",
+        "imagem": "geografia/G35_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "codigo": "G36",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Moçambique?",
+    "imagem_pergunta": "geografia/G36_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem triângulo vermelho e faixas verde, preta e amarela.",
+    "alternativas": [
+      {
+        "id": 341,
+        "letra": "A",
+        "codigo_pais": "ZA",
+        "imagem": "geografia/G36_A.png",
+        "correta": false
+      },
+      {
+        "id": 342,
+        "letra": "B",
+        "codigo_pais": "KE",
+        "imagem": "geografia/G36_B.png",
+        "correta": false
+      },
+      {
+        "id": 343,
+        "letra": "C",
+        "codigo_pais": "ZW",
+        "imagem": "geografia/G36_C.png",
+        "correta": false
+      },
+      {
+        "id": 344,
+        "letra": "D",
+        "codigo_pais": "MZ",
+        "imagem": "geografia/G36_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "codigo": "G37",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Grécia?",
+    "imagem_pergunta": "geografia/G37_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas azuis e brancas com cruz no canto.",
+    "alternativas": [
+      {
+        "id": 345,
+        "letra": "A",
+        "codigo_pais": "GR",
+        "imagem": "geografia/G37_A.png",
+        "correta": true
+      },
+      {
+        "id": 346,
+        "letra": "B",
+        "codigo_pais": "UY",
+        "imagem": "geografia/G37_B.png",
+        "correta": false
+      },
+      {
+        "id": 347,
+        "letra": "C",
+        "codigo_pais": "FI",
+        "imagem": "geografia/G37_C.png",
+        "correta": false
+      },
+      {
+        "id": 348,
+        "letra": "D",
+        "codigo_pais": "AR",
+        "imagem": "geografia/G37_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "codigo": "G38",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Turquia?",
+    "imagem_pergunta": "geografia/G38_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem fundo vermelho com lua crescente e estrela brancas.",
+    "alternativas": [
+      {
+        "id": 349,
+        "letra": "A",
+        "codigo_pais": "TN",
+        "imagem": "geografia/G38_A.png",
+        "correta": false
+      },
+      {
+        "id": 350,
+        "letra": "B",
+        "codigo_pais": "TR",
+        "imagem": "geografia/G38_B.png",
+        "correta": true
+      },
+      {
+        "id": 351,
+        "letra": "C",
+        "codigo_pais": "PK",
+        "imagem": "geografia/G38_C.png",
+        "correta": false
+      },
+      {
+        "id": 352,
+        "letra": "D",
+        "codigo_pais": "MA",
+        "imagem": "geografia/G38_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "codigo": "G39",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Suécia?",
+    "imagem_pergunta": "geografia/G39_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem cruz amarela sobre fundo azul.",
+    "alternativas": [
+      {
+        "id": 353,
+        "letra": "A",
+        "codigo_pais": "FI",
+        "imagem": "geografia/G39_A.png",
+        "correta": false
+      },
+      {
+        "id": 354,
+        "letra": "B",
+        "codigo_pais": "NO",
+        "imagem": "geografia/G39_B.png",
+        "correta": false
+      },
+      {
+        "id": 355,
+        "letra": "C",
+        "codigo_pais": "SE",
+        "imagem": "geografia/G39_C.png",
+        "correta": true
+      },
+      {
+        "id": 356,
+        "letra": "D",
+        "codigo_pais": "DK",
+        "imagem": "geografia/G39_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "codigo": "G40",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Noruega?",
+    "imagem_pergunta": "geografia/G40_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem cruz azul e branca sobre fundo vermelho.",
+    "alternativas": [
+      {
+        "id": 357,
+        "letra": "A",
+        "codigo_pais": "DK",
+        "imagem": "geografia/G40_A.png",
+        "correta": false
+      },
+      {
+        "id": 358,
+        "letra": "B",
+        "codigo_pais": "IS",
+        "imagem": "geografia/G40_B.png",
+        "correta": false
+      },
+      {
+        "id": 359,
+        "letra": "C",
+        "codigo_pais": "SE",
+        "imagem": "geografia/G40_C.png",
+        "correta": false
+      },
+      {
+        "id": 360,
+        "letra": "D",
+        "codigo_pais": "NO",
+        "imagem": "geografia/G40_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "codigo": "G41",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Dinamarca?",
+    "imagem_pergunta": "geografia/G41_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem cruz branca sobre fundo vermelho.",
+    "alternativas": [
+      {
+        "id": 361,
+        "letra": "A",
+        "codigo_pais": "DK",
+        "imagem": "geografia/G41_A.png",
+        "correta": true
+      },
+      {
+        "id": 362,
+        "letra": "B",
+        "codigo_pais": "NO",
+        "imagem": "geografia/G41_B.png",
+        "correta": false
+      },
+      {
+        "id": 363,
+        "letra": "C",
+        "codigo_pais": "CH",
+        "imagem": "geografia/G41_C.png",
+        "correta": false
+      },
+      {
+        "id": 364,
+        "letra": "D",
+        "codigo_pais": "SE",
+        "imagem": "geografia/G41_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "codigo": "G42",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Finlândia?",
+    "imagem_pergunta": "geografia/G42_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem cruz azul sobre fundo branco.",
+    "alternativas": [
+      {
+        "id": 365,
+        "letra": "A",
+        "codigo_pais": "SE",
+        "imagem": "geografia/G42_A.png",
+        "correta": false
+      },
+      {
+        "id": 366,
+        "letra": "B",
+        "codigo_pais": "FI",
+        "imagem": "geografia/G42_B.png",
+        "correta": true
+      },
+      {
+        "id": 367,
+        "letra": "C",
+        "codigo_pais": "GR",
+        "imagem": "geografia/G42_C.png",
+        "correta": false
+      },
+      {
+        "id": 368,
+        "letra": "D",
+        "codigo_pais": "IS",
+        "imagem": "geografia/G42_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "codigo": "G43",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Países Baixos?",
+    "imagem_pergunta": "geografia/G43_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas horizontais vermelha, branca e azul.",
+    "alternativas": [
+      {
+        "id": 369,
+        "letra": "A",
+        "codigo_pais": "RU",
+        "imagem": "geografia/G43_A.png",
+        "correta": false
+      },
+      {
+        "id": 370,
+        "letra": "B",
+        "codigo_pais": "FR",
+        "imagem": "geografia/G43_B.png",
+        "correta": false
+      },
+      {
+        "id": 371,
+        "letra": "C",
+        "codigo_pais": "NL",
+        "imagem": "geografia/G43_C.png",
+        "correta": true
+      },
+      {
+        "id": 372,
+        "letra": "D",
+        "codigo_pais": "LU",
+        "imagem": "geografia/G43_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "codigo": "G44",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Bélgica?",
+    "imagem_pergunta": "geografia/G44_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas verticais preta, amarela e vermelha.",
+    "alternativas": [
+      {
+        "id": 373,
+        "letra": "A",
+        "codigo_pais": "DE",
+        "imagem": "geografia/G44_A.png",
+        "correta": false
+      },
+      {
+        "id": 374,
+        "letra": "B",
+        "codigo_pais": "RO",
+        "imagem": "geografia/G44_B.png",
+        "correta": false
+      },
+      {
+        "id": 375,
+        "letra": "C",
+        "codigo_pais": "FR",
+        "imagem": "geografia/G44_C.png",
+        "correta": false
+      },
+      {
+        "id": 376,
+        "letra": "D",
+        "codigo_pais": "BE",
+        "imagem": "geografia/G44_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "codigo": "G45",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Suíça?",
+    "imagem_pergunta": "geografia/G45_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem cruz branca sobre fundo vermelho.",
+    "alternativas": [
+      {
+        "id": 377,
+        "letra": "A",
+        "codigo_pais": "CH",
+        "imagem": "geografia/G45_A.png",
+        "correta": true
+      },
+      {
+        "id": 378,
+        "letra": "B",
+        "codigo_pais": "DK",
+        "imagem": "geografia/G45_B.png",
+        "correta": false
+      },
+      {
+        "id": 379,
+        "letra": "C",
+        "codigo_pais": "AT",
+        "imagem": "geografia/G45_C.png",
+        "correta": false
+      },
+      {
+        "id": 380,
+        "letra": "D",
+        "codigo_pais": "GE",
+        "imagem": "geografia/G45_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "codigo": "G46",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Áustria?",
+    "imagem_pergunta": "geografia/G46_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem faixas vermelha, branca e vermelha.",
+    "alternativas": [
+      {
+        "id": 381,
+        "letra": "A",
+        "codigo_pais": "LV",
+        "imagem": "geografia/G46_A.png",
+        "correta": false
+      },
+      {
+        "id": 382,
+        "letra": "B",
+        "codigo_pais": "AT",
+        "imagem": "geografia/G46_B.png",
+        "correta": true
+      },
+      {
+        "id": 383,
+        "letra": "C",
+        "codigo_pais": "PE",
+        "imagem": "geografia/G46_C.png",
+        "correta": false
+      },
+      {
+        "id": 384,
+        "letra": "D",
+        "codigo_pais": "PL",
+        "imagem": "geografia/G46_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "codigo": "G47",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Polônia?",
+    "imagem_pergunta": "geografia/G47_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem metade superior branca e inferior vermelha.",
+    "alternativas": [
+      {
+        "id": 385,
+        "letra": "A",
+        "codigo_pais": "ID",
+        "imagem": "geografia/G47_A.png",
+        "correta": false
+      },
+      {
+        "id": 386,
+        "letra": "B",
+        "codigo_pais": "CA",
+        "imagem": "geografia/G47_B.png",
+        "correta": false
+      },
+      {
+        "id": 387,
+        "letra": "C",
+        "codigo_pais": "PL",
+        "imagem": "geografia/G47_C.png",
+        "correta": true
+      },
+      {
+        "id": 388,
+        "letra": "D",
+        "codigo_pais": "AT",
+        "imagem": "geografia/G47_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "codigo": "G48",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Ucrânia?",
+    "imagem_pergunta": "geografia/G48_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem metade superior azul e inferior amarela.",
+    "alternativas": [
+      {
+        "id": 389,
+        "letra": "A",
+        "codigo_pais": "SE",
+        "imagem": "geografia/G48_A.png",
+        "correta": false
+      },
+      {
+        "id": 390,
+        "letra": "B",
+        "codigo_pais": "KZ",
+        "imagem": "geografia/G48_B.png",
+        "correta": false
+      },
+      {
+        "id": 391,
+        "letra": "C",
+        "codigo_pais": "CO",
+        "imagem": "geografia/G48_C.png",
+        "correta": false
+      },
+      {
+        "id": 392,
+        "letra": "D",
+        "codigo_pais": "UA",
+        "imagem": "geografia/G48_D.png",
+        "correta": true
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "codigo": "G49",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Nova Zelândia?",
+    "imagem_pergunta": "geografia/G49_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem fundo azul e quatro estrelas vermelhas.",
+    "alternativas": [
+      {
+        "id": 393,
+        "letra": "A",
+        "codigo_pais": "NZ",
+        "imagem": "geografia/G49_A.png",
+        "correta": true
+      },
+      {
+        "id": 394,
+        "letra": "B",
+        "codigo_pais": "AU",
+        "imagem": "geografia/G49_B.png",
+        "correta": false
+      },
+      {
+        "id": 395,
+        "letra": "C",
+        "codigo_pais": "GB",
+        "imagem": "geografia/G49_C.png",
+        "correta": false
+      },
+      {
+        "id": 396,
+        "letra": "D",
+        "codigo_pais": "US",
+        "imagem": "geografia/G49_D.png",
+        "correta": false
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "codigo": "G50",
+    "materia": "GEOGRAFIA",
+    "pergunta": "Qual é a bandeira deste país: Indonésia?",
+    "imagem_pergunta": "geografia/G50_pergunta.png",
+    "imagem_explicacao": null,
+    "explicacao": "A bandeira correta tem metade superior vermelha e inferior branca.",
+    "alternativas": [
+      {
+        "id": 397,
+        "letra": "A",
+        "codigo_pais": "PL",
+        "imagem": "geografia/G50_A.png",
+        "correta": false
+      },
+      {
+        "id": 398,
+        "letra": "B",
+        "codigo_pais": "ID",
+        "imagem": "geografia/G50_B.png",
+        "correta": true
+      },
+      {
+        "id": 399,
+        "letra": "C",
+        "codigo_pais": "AT",
+        "imagem": "geografia/G50_C.png",
+        "correta": false
+      },
+      {
+        "id": 400,
+        "letra": "D",
+        "codigo_pais": "SG",
+        "imagem": "geografia/G50_D.png",
+        "correta": false
+      }
+    ]
+  }
+]
