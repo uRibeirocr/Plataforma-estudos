@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: educa-visual-api
+
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/educa_visual_db}
+    driver-class-name: org.postgresql.Driver
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: false
+
+server:
+  port: 8080
+
+app:
+  jwt:
+    # Troque este segredo antes de publicar. Em produção, prefira variável de ambiente.
+    secret: ${JWT_SECRET:educa-visual-chave-jwt-local-com-no-minimo-32-bytes-2026}
+    expiration-ms: ${JWT_EXPIRATION_MS:86400000}
