@@ -26,15 +26,29 @@ def tela_login(page: ft.Page):
         fazer_login(page, campo_nome.value, tipo_selecionado.value)
 
     limpar_e_mostrar(page, [
-        ft.Text("Plataforma de Estudos", size=32, weight=ft.FontWeight.BOLD),
-        ft.Text("Entre para continuar", size=18),
-        ft.Container(height=20),
-        campo_nome,
-        campo_senha,
-        tipo_selecionado,
-        ft.Container(height=20),
-        ft.Button("Entrar", icon=ft.Icons.LOGIN, on_click=entrar),
-    ])
+    ft.Image(
+    src="logo.png",
+    width=180,
+    height=180,
+),
+
+    ft.Text("Pratica+", size=32, weight=ft.FontWeight.BOLD),
+    ft.Text("Entre para continuar", size=18),
+
+    ft.Container(height=20),
+
+    campo_nome,
+    campo_senha,
+    tipo_selecionado,
+
+    ft.Container(height=20),
+
+    ft.Button(
+        "Entrar",
+        icon=ft.Icons.LOGIN,
+        on_click=entrar
+    ),
+])
 
 
 def fazer_login(page: ft.Page, nome: str, tipo: str):
