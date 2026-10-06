@@ -2,7 +2,7 @@ import flet as ft
 import estado
 import services
 from components.utils import limpar_e_mostrar
-
+from leitor_voz import falar_texto
 
 def mostrar_exercicio(page: ft.Page):
     from views.resultado import tela_resultado
@@ -19,6 +19,25 @@ def mostrar_exercicio(page: ft.Page):
         return
 
     exercicio = lista_exercicios[indice]
+    
+    # ==========================================
+    #   CHAMA A VOZ PARA LER A PERGUNTA ATUAL
+    # ==========================================
+    falar_texto(exercicio["pergunta"])
+
+    cards = [criar_card_alternativa(page, alt) for alt in exercicio["alternativas"]]
+    
+    # ... (o resto do seu código de componentes_tela continua exatamente igual a partir daqui) ...
+    componentes_tela = [
+        ft.Row([ft.Text(f"⭐ Pontos: {estado.pontuacao['total']}", size=18,
+                        weight=ft.FontWeight.BOLD, color=ft.Colors.AMBER_600)],
+               alignment=ft.MainAxisAlignment.END),
+        ft.Container(height=10),
+        ft.Text(exercicio["pergunta"], size=26, weight=ft.FontWeight.BOLD,
+                text_align=ft.TextAlign.CENTER, color=ft.Colors.BLUE_900),
+        ft.Container(height=15),
+    ]
+    
     cards = [criar_card_alternativa(page, alt) for alt in exercicio["alternativas"]]
     componentes_tela = [
         ft.Row([ft.Text(f"⭐ Pontos: {estado.pontuacao['total']}", size=18,

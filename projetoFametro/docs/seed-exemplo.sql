@@ -1,0 +1,13 @@
+-- EXEMPLO OPCIONAL DE CARGA DE CONTEUDO
+-- Ajuste os IDs conforme o banco criado na sua máquina.
+-- Este arquivo NÃO é executado automaticamente.
+
+-- Exemplo conceitual para MATEMATICA:
+-- INSERT INTO exercicios (tipo, imagem_pergunta, imagem_explicacao, materia_id, ativo)
+-- VALUES ('TABUADA', '/imagens/perguntas/4x4.png', '/imagens/explicacoes/4x4.png', 1, true);
+--
+-- INSERT INTO alternativas (imagem, correta, exercicio_id) VALUES
+-- ('/imagens/alternativas/12.png', false, 1),
+-- ('/imagens/alternativas/16.png', true, 1),
+-- ('/imagens/alternativas/20.png', false, 1),
+-- ('/imagens/alternativas/24.png', false, 1);
