@@ -14,9 +14,8 @@ Projeto de extensão com exercícios visuais para crianças de 5 a 12 anos. A ap
 ## Estado atual
 
 O frontend Flet está integrado à API Spring Boot em `projetoFametro`. O backend
-cria Matemática, Geografia e quatro exercícios iniciais no primeiro start para
-permitir uma demonstração completa. O restante do conteúdo visual continua em
-`UI/questoes.json` e pode ser migrado para a carga inicial da API depois.
+cria Matemática, Geografia e carrega as 100 questões visuais de
+`UI/questoes.json` no primeiro start, permitindo uma demonstração completa.
 
 ## Estrutura
 

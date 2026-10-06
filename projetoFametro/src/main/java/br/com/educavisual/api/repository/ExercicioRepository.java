@@ -8,4 +8,5 @@ import java.util.List;
 public interface ExercicioRepository extends JpaRepository<Exercicio, Long> {
     List<Exercicio> findAllByMateriaIdAndAtivoTrueOrderByIdAsc(Long materiaId);
     long countByMateriaIdAndAtivoTrue(Long materiaId);
+    boolean existsByPergunta(String pergunta);
 }
