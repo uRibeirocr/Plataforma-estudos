@@ -21,6 +21,21 @@ def tela_inicio(page: ft.Page):
         estado.sessao.update({"token": None, "usuario": None})
         tela_login(page)
 
+    def progresso(e):
+        import services
+        try:
+            dados = services.meu_progresso()
+            limpar_e_mostrar(page, [
+                ft.Text("Meu progresso", size=30, weight=ft.FontWeight.BOLD),
+                ft.Text(f"Pontos: {dados['pontuacao']}"),
+                ft.Text(f"Acertos: {dados['acertos']} | Respondidas: {dados['respondidas']}"),
+                ft.Text(f"Matemática: {dados['por_materia']['MATEMATICA']['acertos']} acertos"),
+                ft.Text(f"Geografia: {dados['por_materia']['GEOGRAFIA']['acertos']} acertos"),
+                ft.Button("Voltar", icon=ft.Icons.ARROW_BACK, on_click=lambda e: tela_inicio(page)),
+            ])
+        except services.ApiError as exc:
+            limpar_e_mostrar(page, [ft.Text(str(exc), color=ft.Colors.RED_600), ft.Button("Voltar", on_click=lambda e: tela_inicio(page))])
+
     limpar_e_mostrar(page, [
         ft.Text(f"Bem-vindo(a), {nome}! 👋", size=32, weight=ft.FontWeight.BOLD),
         ft.Text("Escolhe uma matéria para começar:", size=18),
@@ -34,5 +49,6 @@ def tela_inicio(page: ft.Page):
             spacing=20,
         ),
         ft.Container(height=16),
+        ft.Button("Meu progresso", icon=ft.Icons.BAR_CHART, on_click=progresso),
         ft.Button("Sair", icon=ft.Icons.LOGOUT, on_click=sair),
     ])
