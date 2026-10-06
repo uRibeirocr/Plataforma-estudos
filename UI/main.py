@@ -3,7 +3,7 @@ import flet as ft
 from views.login import tela_login
 
 def main(page: ft.Page):
-    page.title = "Plataforma de Estudos"
+    page.title = "Pratica+"
     page.theme_mode = ft.ThemeMode.LIGHT
     page.padding = 30
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER

@@ -48,7 +48,7 @@ def tela_login(page):
     alternar.on_click = mudar_modo
     limpar_e_mostrar(page, [
         ft.Image(src="logo.png", width=120, height=120),
-        ft.Text("Plataforma de Estudos", size=32, weight=ft.FontWeight.BOLD),
+        ft.Text("Pratica+", size=32, weight=ft.FontWeight.BOLD),
         ft.Text("Entre ou crie uma conta para estudar"), ft.Container(height=16),
         nome, senha, tipo, aviso, botao, alternar,
     ])
