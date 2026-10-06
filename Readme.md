@@ -6,14 +6,17 @@ Projeto de extensão com exercícios visuais para crianças de 5 a 12 anos. A ap
 
 - Escolha entre Matemática e Geografia.
 - Exercícios com imagem, alternativas e feedback imediato.
-- Pontuação de 10 pontos por resposta correta durante a sessão.
-- Tela de resultado ao terminar a lista de questões.
+- Cadastro e login de aluno ou responsável.
+- Pontuação persistente de 10 pontos por resposta correta.
+- Progresso por matéria e vínculo de responsável a aluno.
+- API Java com Spring Boot, autenticação JWT e banco H2 local.
 
 ## Estado atual
 
-O frontend é feito em Python com Flet. Enquanto o backend e o banco de dados não são integrados, as questões são carregadas de dados locais em `UI/mock_data.py` e a pontuação é mantida apenas enquanto o aplicativo está aberto.
-
-O login, a área do responsável e o progresso persistente ainda dependem da API e do banco de dados.
+O frontend Flet está integrado à API Spring Boot em `projetoFametro`. O backend
+cria Matemática, Geografia e quatro exercícios iniciais no primeiro start para
+permitir uma demonstração completa. O restante do conteúdo visual continua em
+`UI/questoes.json` e pode ser migrado para a carga inicial da API depois.
 
 ## Estrutura
 
@@ -25,39 +28,36 @@ Plataforma-estudos/
 │   ├── views/           # telas da aplicação
 │   ├── main.py          # ponto de entrada do frontend
 │   └── mock_data.py     # dados locais temporários das questões
+├── projetoFametro/    # API Java / Spring Boot
 ├── requirements.txt
 └── Readme.md
 ```
 
 ## Como executar
 
-Pré-requisito: Python 3.10 ou superior.
+Pré-requisitos: Python 3.10+, Java 21 e Maven 3.9+.
 
 No PowerShell, a partir da pasta do repositório:
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-python backend/server.py
+cd projetoFametro
+mvn spring-boot:run
 ```
 
-Deixe esse primeiro terminal aberto: ele executa a API e cria o banco local
-SQLite em `backend/data/plataforma.db`. Em um segundo PowerShell, ative o mesmo
-ambiente virtual e execute o frontend:
+Execute esse comando dentro da pasta `projetoFametro` e deixe o terminal aberto.
+Ele inicia a API em `http://127.0.0.1:8080` e cria o banco H2 local. Em outro
+PowerShell, na raiz do repositório, prepare e execute o frontend:
 
 ```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
 cd UI
 python main.py
 ```
 
-O aplicativo permite criar conta de aluno ou responsável. O responsável pode
-vincular um aluno pelo e-mail depois que a conta do aluno for criada.
-
-> A API Python/SQLite existe apenas nesta branch de contingência para permitir
-> teste completo imediato. A equipe pode substituí-la pela implementação Spring
-> Boot planejada sem alterar a interface do usuário.
+O aplicativo permite criar conta de aluno ou responsável. Após criar um aluno,
+anote o ID mostrado pelo backend para vinculá-lo à conta do responsável.
 
 No macOS ou Linux, ative o ambiente com `source .venv/bin/activate` antes de instalar as dependências.
 
