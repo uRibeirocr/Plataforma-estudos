@@ -40,9 +40,24 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
+python backend/server.py
+```
+
+Deixe esse primeiro terminal aberto: ele executa a API e cria o banco local
+SQLite em `backend/data/plataforma.db`. Em um segundo PowerShell, ative o mesmo
+ambiente virtual e execute o frontend:
+
+```powershell
 cd UI
 python main.py
 ```
+
+O aplicativo permite criar conta de aluno ou responsável. O responsável pode
+vincular um aluno pelo e-mail depois que a conta do aluno for criada.
+
+> A API Python/SQLite existe apenas nesta branch de contingência para permitir
+> teste completo imediato. A equipe pode substituí-la pela implementação Spring
+> Boot planejada sem alterar a interface do usuário.
 
 No macOS ou Linux, ative o ambiente com `source .venv/bin/activate` antes de instalar as dependências.
 

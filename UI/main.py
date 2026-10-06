@@ -1,6 +1,6 @@
 # main.py
 import flet as ft
-from views.inicio import tela_inicio
+from views.login import tela_login
 
 def main(page: ft.Page):
     page.title = "Plataforma de Estudos"
@@ -9,8 +9,7 @@ def main(page: ft.Page):
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
 
-    # Inicia direto na tela principal, sem passar por login
-    tela_inicio(page)
+    tela_login(page)
 
 if __name__ == "__main__":
     ft.run(main, assets_dir="assets")

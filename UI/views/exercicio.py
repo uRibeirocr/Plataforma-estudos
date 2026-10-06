@@ -12,7 +12,7 @@ def mostrar_exercicio(page: ft.Page):
 
     materia = estado.estado_atual["materia"]
     indice = estado.estado_atual["indice"]
-    lista_exercicios = services.buscar_exercicios(materia)
+    lista_exercicios = estado.estado_atual["questoes"]
 
     if indice >= len(lista_exercicios):
         tela_resultado(page)
@@ -67,8 +67,14 @@ def criar_card_alternativa(page: ft.Page, alternativa: dict):
 
 
 def verificar_resposta(page: ft.Page, alternativa: dict):
-    if alternativa["correta"]:
-        estado.pontuacao["total"] += 10
+    exercicio = estado.estado_atual["questoes"][estado.estado_atual["indice"]]
+    try:
+        resposta = services.responder(exercicio["id"], alternativa["id"])
+    except services.ApiError as exc:
+        limpar_e_mostrar(page, [ft.Text(str(exc), color=ft.Colors.RED_600), ft.Button("Voltar", on_click=lambda e: mostrar_exercicio(page))])
+        return
+    estado.pontuacao["total"] = resposta["progresso"]["pontuacao"]
+    if resposta["correta"]:
         mensagem, cor = "Acertou! 🎉", ft.Colors.GREEN
     else:
         mensagem, cor = "Não foi desta, tenta a próxima! 💪", ft.Colors.RED
@@ -81,9 +87,8 @@ def verificar_resposta(page: ft.Page, alternativa: dict):
         ft.Text(mensagem, size=28, color=cor, weight=ft.FontWeight.BOLD,
                 text_align=ft.TextAlign.CENTER),
     ]
-    exercicio = services.buscar_exercicios(estado.estado_atual["materia"])[estado.estado_atual["indice"]]
-    if exercicio.get("explicacao"):
-        controles.append(ft.Text(exercicio["explicacao"], size=17,
+    if resposta.get("explicacao"):
+        controles.append(ft.Text(resposta["explicacao"], size=17,
                                   text_align=ft.TextAlign.CENTER))
     controles.extend([
         ft.Container(height=20),

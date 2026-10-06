@@ -8,6 +8,9 @@ venv/
 env/
 .venv/
 
+# Banco local da API de contingência
+backend/data/
+
 # Build do Flet (quando for gerar o app empacotado)
 build/
 dist/
