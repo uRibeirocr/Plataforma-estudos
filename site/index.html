@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pratica+ · Plataforma de Estudos</title>
+<style>
+  :root { --azul:#1e4fa3; --azul-claro:#eaf2ff; --borda:#9ec3f5; --verde:#2e9e4f; --verde-claro:#dff5e5;
+          --vermelho:#d23c3c; --vermelho-claro:#fde4e4; --ouro:#f2a900; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: system-ui, "Segoe UI", Roboto, sans-serif; background:#f6f9ff; color:#1b2a41; }
+  main { max-width: 760px; margin: 0 auto; padding: 20px 16px 60px; text-align: center; }
+  h1 { color: var(--azul); margin: 8px 0; font-size: 2rem; }
+  h2 { margin: 6px 0; } p { font-size: 1.1rem; }
+  img.logo { width: 130px; height: 130px; object-fit: contain; }
+  button { font: inherit; font-size: 1.05rem; padding: 10px 18px; margin: 5px; border: 0; border-radius: 12px;
+           background: var(--azul); color: #fff; cursor: pointer; }
+  button:hover { filter: brightness(1.1); } button.sec { background: #fff; color: var(--azul); border: 2px solid var(--azul); }
+  button.grande { font-size: 1.3rem; padding: 16px 26px; }
+  select { font: inherit; padding: 8px 12px; border-radius: 10px; border: 2px solid var(--borda); }
+  .topo { display:flex; justify-content: space-between; align-items:center; font-weight: 600; }
+  .barra { height: 12px; background:#d7e4fa; border-radius: 8px; overflow: hidden; margin: 8px 0 14px; }
+  .barra > div { height:100%; background: var(--azul); transition: width .3s; }
+  .pergunta { font-size: 1.6rem; font-weight: 700; color: #123a7a; margin: 12px 0; }
+  .ilustracao { max-width: 100%; height: 230px; object-fit: contain; }
+  .grade { display:grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 16px 0; }
+  .card { border: 3px solid var(--borda); background: var(--azul-claro); border-radius: 16px; padding: 10px;
+          cursor: pointer; font-size: 1.1rem; }
+  .card img { width: 100%; height: 110px; object-fit: contain; display:block; margin-bottom: 6px; }
+  .card.certa { border-color: var(--verde); background: var(--verde-claro); }
+  .card.errada { border-color: var(--vermelho); background: var(--vermelho-claro); }
+  .card.neutra { border-color:#d5d9e0; background:#f1f3f6; opacity:.8; }
+  .card.travado { cursor: default; }
+  .ok { color: var(--verde); } .no { color: var(--vermelho); } .msg { font-size: 1.5rem; font-weight: 700; margin: 6px 0; }
+  .estrelas { font-size: 3rem; } .pontos { color: var(--ouro); }
+  .caixa { background:#fff; border:2px solid var(--borda); border-radius: 14px; padding: 12px; margin: 10px 0; text-align:left; }
+  .cinza { color:#5b6b82; font-size:.95rem; }
+  nav { margin-bottom: 8px; }
+</style>
+</head>
+<body>
+<main id="app" aria-live="polite"></main>
+<script>
+"use strict";
+const PONTOS = 10;
+const MATERIAS = { MATEMATICA: {titulo: "Matemática", emoji: "🧮"}, GEOGRAFIA: {titulo: "Geografia", emoji: "🌎"} };
+const QUANTIDADES = [["5", 5], ["10", 10], ["20", 20], ["Todas", null]];
+const CHAVE = "pratica-mais-progresso-v1";
+const app = document.getElementById("app");
+let questoes = [];
+let prefs = { quantidade: 10, voz: true };
+let rodada = null;
+
+// ---------- utilidades ----------
+function el(tag, props = {}, ...filhos) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(props)) {
+    if (k === "class") e.className = v; else if (k === "onclick") e.onclick = v; else e.setAttribute(k, v);
+  }
+  for (const f of filhos.flat()) if (f != null) e.append(f.nodeType ? f : document.createTextNode(f));
+  return e;
+}
+function mostrar(...nos) { app.replaceChildren(...nos); window.scrollTo(0, 0); }
+function embaralhar(lista) { const a = [...lista]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function img(caminho, cls) { return caminho ? el("img", { src: "assets/" + caminho, alt: "", class: cls || "" }) : null; }
+function falar(texto) {
+  if (!prefs.voz || !("speechSynthesis" in window)) return;
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(texto); u.lang = "pt-BR"; u.rate = 0.95; speechSynthesis.speak(u);
+}
+function lerProgresso() { try { return JSON.parse(localStorage.getItem(CHAVE)) || {}; } catch { return {}; } }
+function salvarProgresso(p) { try { localStorage.setItem(CHAVE, JSON.stringify(p)); } catch { /* sem armazenamento */ } }
+function registrarNoProgresso(materia, codigo, acertou) {
+  const p = lerProgresso();
+  const m = p[materia] || (p[materia] = { respondidas: 0, acertos: 0, pontos: 0, dominadas: [] });
+  m.respondidas++; if (acertou) { m.acertos++; m.pontos += PONTOS; if (!m.dominadas.includes(codigo)) m.dominadas.push(codigo); }
+  salvarProgresso(p);
+}
+const estrelasDe = p => p >= 0.9 ? 3 : p >= 0.7 ? 2 : p >= 0.4 ? 1 : 0;
+const MENSAGENS = ["Não desanime! Tentando de novo você chega lá! 🌱", "Bom começo! Vamos treinar mais um pouco? 💪",
+                   "Muito bom! Quase perfeito! 🎉", "Incrível! Você mandou muito bem! 🏆"];
+
+// ---------- telas ----------
+function telaInicio() {
+  const sel = el("select", { id: "qtd", "aria-label": "Quantas questões?" },
+    QUANTIDADES.map(([t, v]) => el("option", { value: t, ...(v === prefs.quantidade ? { selected: "" } : {}) }, t)));
+  const comecar = m => () => { prefs.quantidade = Object.fromEntries(QUANTIDADES)[sel.value]; iniciar(m); };
+  mostrar(
+    el("img", { src: "assets/logo.png", alt: "Pratica+", class: "logo" }),
+    el("h1", {}, "Pratica+"),
+    el("p", {}, "Escolha uma matéria para começar!"),
+    el("p", {}, el("label", {}, "Quantas questões? ", sel)),
+    el("div", {}, Object.entries(MATERIAS).map(([m, i]) => el("button", { class: "grande", onclick: comecar(m) }, `${i.emoji} ${i.titulo}`))),
+    el("p", {}, el("button", { class: "sec", onclick: telaProgresso }, "📊 Meu progresso"),
+      el("button", { class: "sec", onclick: () => { prefs.voz = !prefs.voz; telaInicio(); } }, prefs.voz ? "🔊 Voz ligada" : "🔇 Voz desligada")),
+    el("p", { class: "cinza" }, "Cada acerto vale 10 pontos. Errou? Sem problema, ninguém perde pontos!")
+  );
+}
+
+function iniciar(materia, lista) {
+  const base = lista || embaralhar(questoes.filter(q => q.materia === materia));
+  const escolhidas = lista ? base : (prefs.quantidade ? base.slice(0, prefs.quantidade) : base);
+  rodada = { materia, questoes: escolhidas, i: 0, pontos: 0, acertos: 0, erros: [] };
+  telaQuestao();
+}
+
+function telaQuestao(feedback) {
+  const q = rodada.questoes[rodada.i];
+  const total = rodada.questoes.length;
+  const concluidas = rodada.i + (feedback ? 1 : 0);
+  if (!feedback) falar(q.pergunta);
+
+  const cards = q.alternativas.map(a => {
+    let cls = "card";
+    if (feedback) {
+      cls += " travado " + (a.correta ? "certa" : a.id === feedback.escolhida ? "errada" : "neutra");
+    }
+    const rotulo = [a.letra, a.texto].filter(Boolean).join(") ");
+    const card = el("div", { class: cls, role: "button", tabindex: feedback ? "-1" : "0" }, img(a.imagem), rotulo);
+    if (!feedback) {
+      const escolher = () => responder(q, a);
+      card.onclick = escolher;
+      card.onkeydown = ev => { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); escolher(); } };
+    }
+    return card;
+  });
+
+  const ultima = rodada.i === total - 1;
+  mostrar(
+    el("div", { class: "topo" }, el("span", {}, `Questão ${rodada.i + 1} de ${total}`), el("span", { class: "pontos" }, `⭐ Pontos: ${rodada.pontos}`)),
+    el("div", { class: "barra" }, el("div", { style: `width:${Math.round(100 * concluidas / total)}%` })),
+    el("div", { class: "pergunta" }, q.pergunta),
+    el("button", { class: "sec", onclick: () => { const v = prefs.voz; prefs.voz = true; falar(q.pergunta); prefs.voz = v; } }, "🔊 Ouvir de novo"),
+    img(q.imagem_pergunta, "ilustracao"),
+    el("div", { class: "grade" }, cards),
+    feedback && el("div", {},
+      el("div", { class: "msg " + (feedback.acertou ? "ok" : "no") }, feedback.acertou ? "Acertou! 🎉 +10 pontos" : "Não foi desta! A resposta certa está em verde. 💪"),
+      el("p", {}, q.explicacao || ""),
+      img(q.imagem_explicacao, "ilustracao"),
+      el("button", { class: "grande", onclick: () => { rodada.i++; rodada.i >= total ? telaResultado() : telaQuestao(); } }, ultima ? "Ver resultado" : "Próxima ➜")),
+    el("p", {}, el("button", { class: "sec", onclick: telaInicio }, "🏠 Voltar ao início"))
+  );
+}
+
+function responder(q, alternativa) {
+  const acertou = alternativa.correta;
+  if (acertou) { rodada.acertos++; rodada.pontos += PONTOS; } else rodada.erros.push(q);
+  registrarNoProgresso(rodada.materia, q.codigo, acertou);
+  telaQuestao({ escolhida: alternativa.id, acertou });
+}
+
+function telaResultado() {
+  const total = rodada.questoes.length, p = rodada.acertos / total, n = estrelasDe(p);
+  const erradas = rodada.erros;
+  mostrar(
+    el("h1", { class: "ok" }, "Você terminou! 🏆"),
+    el("div", { class: "estrelas" }, "⭐".repeat(n) + "☆".repeat(3 - n)),
+    el("p", {}, MENSAGENS[n]),
+    el("h2", {}, `Você conquistou ${rodada.pontos} pontos!`),
+    el("p", {}, `Acertos: ${rodada.acertos} de ${total} (${Math.round(p * 100)}%)`),
+    erradas.length > 0 && el("div", { class: "caixa" }, el("strong", {}, "Para revisar:"),
+      ...erradas.map(q => { const c = q.alternativas.find(a => a.correta); return el("p", {}, `• ${q.pergunta} → resposta certa: ${[c.letra, c.texto].filter(Boolean).join(" ")}`); })),
+    el("div", {},
+      erradas.length > 0 && el("button", { onclick: () => iniciar(rodada.materia, erradas) }, `🔁 Refazer os ${erradas.length} erros`),
+      el("button", { onclick: () => iniciar(rodada.materia) }, "🔄 Nova rodada"),
+      el("button", { class: "sec", onclick: telaInicio }, "🏠 Início"))
+  );
+}
+
+function telaProgresso() {
+  const p = lerProgresso();
+  const blocos = Object.entries(MATERIAS).map(([m, info]) => {
+    const d = p[m] || { respondidas: 0, acertos: 0, pontos: 0, dominadas: [] };
+    const total = questoes.filter(q => q.materia === m).length;
+    const pct = total ? Math.round(100 * d.dominadas.length / total) : 0;
+    return el("div", { class: "caixa" },
+      el("h2", {}, `${info.emoji} ${info.titulo}`),
+      el("p", {}, `⭐ ${d.pontos} pontos`),
+      el("p", {}, `Exercícios dominados: ${d.dominadas.length} de ${total}`),
+      el("div", { class: "barra" }, el("div", { style: `width:${pct}%` })),
+      el("p", { class: "cinza" }, `Acertos: ${d.acertos}   Erros: ${d.respondidas - d.acertos}`));
+  });
+  mostrar(el("h1", {}, "Meu Progresso 📊"), ...blocos,
+    el("p", { class: "cinza" }, "O progresso fica salvo neste navegador."),
+    el("button", { class: "sec", onclick: telaInicio }, "🏠 Início"),
+    el("button", { class: "sec", onclick: () => { if (confirm("Apagar o progresso salvo neste navegador?")) { salvarProgresso({}); telaProgresso(); } } }, "🗑️ Zerar progresso"));
+}
+
+fetch("questoes.json")
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(dados => { questoes = dados; telaInicio(); })
+  .catch(() => mostrar(el("h1", {}, "Ops!"), el("p", {}, "Não consegui carregar as questões. Recarregue a página.")));
+</script>
+</body>
+</html>
