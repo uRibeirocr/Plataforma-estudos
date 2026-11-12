@@ -12,11 +12,15 @@ env/
 build/
 dist/
 
+# Site gerado pelo GitHub Actions / site/build_site.py
+_site/
+
 # ===== Java / Spring Boot (backend) =====
 target/
 *.class
 *.jar
 *.war
+backend/data/
 
 # ===== Editores / IDEs =====
 .vscode/

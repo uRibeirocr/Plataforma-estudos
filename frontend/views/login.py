@@ -1,14 +1,15 @@
-# login.py
 import flet as ft
+
 import estado
-from views.inicio import tela_inicio
-from components.utils import limpar_e_mostrar
+import services
+from components.utils import espaco, limpar_e_mostrar, titulo
 
 
-def tela_login(page: ft.Page):
+def tela_login(page: ft.Page, mensagem_erro: str = ""):
+    page.scroll = ft.ScrollMode.AUTO
     campo_nome = ft.TextField(label="Nome", width=300)
     campo_senha = ft.TextField(label="Senha", password=True, can_reveal_password=True, width=300)
-    tipo_selecionado = ft.Dropdown(
+    tipo = ft.Dropdown(
         label="Eu sou...",
         width=300,
         options=[
@@ -17,64 +18,71 @@ def tela_login(page: ft.Page):
         ],
         value="ALUNO",
     )
+    aviso = ft.Text(mensagem_erro, size=16, color=ft.Colors.RED_700, text_align=ft.TextAlign.CENTER)
+
+    def validar() -> bool:
+        campo_nome.error_text = None if campo_nome.value and campo_nome.value.strip() else "Digite seu nome"
+        campo_senha.error_text = None if campo_senha.value else "Digite sua senha"
+        page.update()
+        return not (campo_nome.error_text or campo_senha.error_text)
 
     def entrar(e):
-        if not campo_nome.value:
-            campo_nome.error_text = "Digite seu nome"
+        if not validar():
+            return
+        try:
+            services.entrar(campo_nome.value.strip(), campo_senha.value)
+        except services.ApiError as exc:
+            aviso.value = str(exc)
             page.update()
             return
-        fazer_login(page, campo_nome.value, tipo_selecionado.value)
+        _ir_para_inicio(page)
+
+    def criar_conta(e):
+        if not validar():
+            return
+        try:
+            services.cadastrar(campo_nome.value.strip(), campo_senha.value, tipo.value)
+        except services.ApiError as exc:
+            aviso.value = str(exc)
+            page.update()
+            return
+        _ir_para_inicio(page)
+
+    def jogar_offline(e):
+        services.entrar_offline(campo_nome.value.strip() if campo_nome.value else "")
+        _ir_para_inicio(page)
 
     limpar_e_mostrar(page, [
-    ft.Image(
-    src="logo.png",
-    width=180,
-    height=180,
-),
-
-    ft.Text("Pratica+", size=32, weight=ft.FontWeight.BOLD),
-    ft.Text("Entre para continuar", size=18),
-
-    ft.Container(height=20),
-
-    campo_nome,
-    campo_senha,
-    tipo_selecionado,
-
-    ft.Container(height=20),
-
-    ft.Button(
-        "Entrar",
-        icon=ft.Icons.LOGIN,
-        on_click=entrar
-    ),
-])
+        ft.Image(src="logo.png", width=160, height=160),
+        titulo("Pratica+", 32),
+        ft.Text("Entre para continuar", size=18),
+        espaco(15),
+        campo_nome,
+        campo_senha,
+        tipo,
+        aviso,
+        espaco(10),
+        ft.Row([
+            ft.Button("Entrar", icon=ft.Icons.LOGIN, on_click=entrar),
+            ft.Button("Criar conta", icon=ft.Icons.PERSON_ADD, on_click=criar_conta),
+        ], alignment=ft.MainAxisAlignment.CENTER, spacing=15),
+        espaco(5),
+        ft.Button("Jogar sem conta (offline)", icon=ft.Icons.PLAY_ARROW, on_click=jogar_offline),
+        ft.Text("No modo offline o progresso não é salvo no servidor.", size=13,
+                color=ft.Colors.GREY_600, text_align=ft.TextAlign.CENTER),
+    ])
 
 
-def fazer_login(page: ft.Page, nome: str, tipo: str):
-    """Por enquanto não valida senha de verdade — isso vem do backend (Jojo) depois."""
-    estado.usuario["nome"] = nome
-    estado.usuario["tipo"] = tipo
+def _ir_para_inicio(page: ft.Page):
+    from views.inicio import tela_inicio
+    from views.responsavel import tela_responsavel
 
-    if tipo == "RESPONSAVEL":
-        tela_progresso_responsavel(page)
+    if estado.usuario().get("tipo") == "RESPONSAVEL":
+        tela_responsavel(page)
     else:
         tela_inicio(page)
 
 
-def tela_progresso_responsavel(page: ft.Page):
-    """RN01: Responsável só visualiza o progresso, não responde exercícios."""
-    limpar_e_mostrar(page, [
-        ft.Text(f"Olá, {estado.usuario['nome']}!", size=28, weight=ft.FontWeight.BOLD),
-        ft.Text("Aqui você vai acompanhar o progresso dos alunos vinculados.", size=16),
-        ft.Container(height=20),
-        ft.Text("(Em construção — depende dos dados reais do backend, RN11)", italic=True),
-        ft.Container(height=20),
-        ft.Button("Sair", icon=ft.Icons.LOGOUT, on_click=lambda e: sair(page)),
-    ])
-
-
 def sair(page: ft.Page):
-    estado.usuario["nome"] = None
-    estado.usuario["tipo"] = None
+    estado.encerrar_sessao()
     tela_login(page)

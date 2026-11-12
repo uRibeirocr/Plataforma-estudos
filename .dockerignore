@@ -1,0 +1,7 @@
+.git
+.github
+_site
+**/__pycache__
+backend/target
+backend/data
+frontend/tests
