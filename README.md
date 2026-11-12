@@ -41,7 +41,7 @@ mvn spring-boot:run
 
 ```bash
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\Activate.ps1
-pip install -r requirements.txt
+pip install -r frontend/requirements.txt
 cd frontend && python main.py
 ```
 
